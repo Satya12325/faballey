@@ -15,7 +15,7 @@ import BottomNav from './BottomNav';
 import {useState} from "react"
 import styles from "styled-components";
 import { LoginModal } from '../Components/Login/Login'
-
+import {Link} from "react-router-dom"
 
 function ElevationScroll(props) {
     const { children, window } = props;
@@ -79,18 +79,18 @@ return (
       <ElevationScroll {...props}>
         <AppBar style={{backgroundColor:"white",color:"black",height:""}}>
         <div style={{border:"1px solid gray", height:"40px",display:"flex",padding:"0 20px",justifyContent:"space-between",position:"relative"}}>
-            <Typography component="div" style={{fontSize:"10px",marginTop:"10px",color:"red"}}>
+           <Link to={"/product"} style={{textDecoration:"none"}}> <Typography component="div" className={style.Nav} style={{fontSize:"10px",marginTop:"10px",color:"red"}}>
              SALE | UPTO 65% off. <span style={{color:"black"}}>Shop Now <ArrowForwardIosIcon style={{fontSize:"10px"}}/></span>
-            </Typography>
-            <div style={{display:"flex"}}>
+            </Typography></Link>
+           <Link to={"/"}> <div className={style.images} style={{display:"flex"}}>
                 <div>                  
                     <img style={{height:"39px",width:"150px",backgroundColor:"black",padding:"10px 20px"}} src="https://static.faballey.com/images/indya/fabwht.png?v=11.8" alt="" />
                 </div>
                 <div>
                     <img style={{height:"39px",width:"100px",padding:"10px 20px"}} src="https://static.faballey.com/images/indya/indblk.png?v=11.8" alt=""/>
                 </div>
-            </div>
-            <div component="div" style={{fontSize:"10px",width:"250px",display:"flex",justifyContent:"space-between",margin:"10px"}}>
+            </div></Link>
+            <div component="div" className={style.cart} style={{fontSize:"10px",width:"250px",}}>
             <div className={style.Right}>Track Order</div>
             <div className={style.Right}>Gift Card</div>
             <div className={style.Right}><LoginModal/></div>

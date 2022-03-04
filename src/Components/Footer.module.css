@@ -1,0 +1,268 @@
+
+.main {
+    width: 90%;
+    margin: auto;
+}
+
+.footer {
+    height: 155px;
+    overflow-y: scroll !important;
+    border-bottom: 0.2px solid #dcdcdc;
+    text-align: left;
+    /* margin:0px 220px 30px 210px; */
+}
+
+.footer h1 {
+    text-align: left;
+}
+
+.footercontainer h1 {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.footercontainer {
+    padding-top: 20px;
+}
+
+.footer p {
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+
+.footer2 {
+    float: left;
+    border: none;
+    display: flex;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    border-bottom: 0.2px solid #dcdcdc;
+}
+
+.categories {
+    color: #323232;
+    font-size: 12px;
+}
+
+.footer2 img {
+    width: 90%;
+}
+
+.footer2heading {
+    display: flex;
+}
+
+.footer2heading div{
+    width: 100%;
+    margin: 5px;
+    margin-left: 0px;
+}
+.footer2heading div img{
+    width: 100%;
+}
+.footer2item{
+    margin: 20px;
+}
+.footer2item h4 {
+    margin: 0%;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.bottom-3 {
+    border: 1px solid red;
+}
+
+.footerhelp {
+    display: flex;
+}
+
+.footercontact {
+    margin-top: 80px;
+}
+
+.contactflex {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    border-bottom: 0.2px solid #dcdcdc;
+    padding-bottom: 5%;
+    margin-top: -40px;
+}
+
+
+
+
+
+.contactflex p {
+    font-size: 16px;
+}
+
+.contactdetails {
+    border-right: 0.2px solid #dcdcdc;
+    padding-right: 5%;
+    font-size: 16px;
+}
+
+.contactdetails p {
+    margin: 5px;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.help {
+    width: 40%;
+    border-right: 0.2px solid #dcdcdc;
+    margin-left: -10%;
+}
+
+.help h3 {
+    text-align: center;
+}
+
+.contactflex h3 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.helpflex {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+}
+
+.helpflex p {
+    margin: 5px;
+    padding: 0px;
+}
+@media screen and (max-width:450px){
+    .contactflex {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        
+    }
+    .helpflex {
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+       margin-left: 40px;
+    }
+    
+}
+.downloadg {
+    text-align: center;
+    margin-left: -10%;
+}
+
+.email {
+    max-width: 250px;
+    width: 100%;
+    /* padding: 10px 6px; */
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid #dcdcdc;
+    font-weight: 700;
+    color: #b0b0b0;
+    box-sizing: border-box;
+}
+
+.btnsubscribe {
+    background: #323232;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 530;
+    text-transform: uppercase;    
+    text-decoration: none;
+    transition: all .3s ease 0s;
+    height: 42px;
+    margin-top: 17px;
+}
+
+
+/* .address{
+margin-left:0%;
+} */
+
+.footersearch {
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+
+    padding: 20px 0;
+    text-align: left;
+    padding-left: 50px;
+}
+.footersearch p{
+    width: 90%;
+}
+.footersearch a {
+    color: #323232;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.6%;
+    font-weight: 400;
+}
+
+.footersearch+a {
+    margin-left: 0px;
+}
+
+.footersearch h4 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    float: none;
+    display: block;
+}
+
+.sociallink {
+    margin-left: 7%;
+}
+
+.ftrSocial {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.copyright {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+
+    padding: 16px 0;
+    text-align: center;
+}
+
+.yout img {
+    width: 40px;
+    height: 40px;
+    margin-left: 8%;
+    border-radius: 50%;
+}
+.lastline{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.lastline hr{
+    width: 56%;
+    height: 0.01px;
+    margin: 0px;
+    margin-left: 10px;
+    margin-top: 8px;
+
+    background-color: #dcdcdc;
+}

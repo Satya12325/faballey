@@ -33,3 +33,22 @@ p{
 .btn:hover{    
     border-bottom: 5px solid tomato;
 }
+.cart{
+    font-size: 12px;
+    width:250px;
+    display:flex;
+    justify-content:space-between;
+    margin:10px
+}
+@media screen and (max-width:550px){
+    .Nav{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    .images{
+        width: 200px;
+        margin: auto;
+    }
+}
