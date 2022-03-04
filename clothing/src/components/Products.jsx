@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom"
 import { useEffect, useState } from "react"
 import styles from"./Products.module.css";
 import { Sidebar } from "./Sidebar";
-// import  {BothNavbar} from  "../Navbars/Bothnavbar"
+import Footer from './Footer';
 
 function  Products(){
 const [data,setData]= useState([])
@@ -47,7 +47,22 @@ pro1()
            }
         }
 
+        const sizeadjust =(e)=>{
+            const option=e.target.value;
+            if(option == "l"){
+                const updatelist = data.filter((ev)=>ev.sizes===option )
+                setState(updatelist)
+            }
+            if(option == "m"){
+                const updatelist = data.filter((ev)=>ev.sizes===option )
+                setState(updatelist)
+            }
+            if(option == "s"){
+                const updatelist = data.filter((ev)=>ev.sizes===option )
+                setState(updatelist)
+            }
 
+        }
 
         const colorsAll = (e)=>{
 
@@ -190,11 +205,11 @@ pro1()
 
         <div style={{flex:"3"}}>
          <div className={styles.below2ndnavbardiv} >
-                <select className={styles.forsizefilter}>
+                <select className={styles.forsizefilter} onChange={sizeadjust}>
                    <option value="size">Size</option>
-                   <option value="m">Medium</option>
-                   <option value="s">Small</option>
-                   <option value="l">Large</option>
+                   <option value="m">M</option>
+                   <option value="s">S</option>
+                   <option value="l">L</option>
                 </select>
                <select className={styles.forcolorsfilter}onChange={colorsAll}>
                    <option value="all"> Colour</option>
@@ -290,6 +305,7 @@ pro1()
         </div>
         </div>
         </div>
+        <Footer />
         </>
     )
 }
