@@ -1,0 +1,35 @@
+.Right{
+    border-right:1px solid gray;
+    padding-right: 10px;
+}
+.popover::hover{
+    border-bottom: 5px solid red;
+}
+.pooper{
+    width: 1200px;
+    margin-top: 5%;
+    
+}
+p{
+    font-size: 12px;
+  
+}
+.pooperComponent{
+    display: flex;
+    width:60%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 25px;
+}
+.btn{
+    color: black;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    width:100px;
+    text-align: center;   
+}
+.btn:hover{    
+    border-bottom: 5px solid tomato;
+}
