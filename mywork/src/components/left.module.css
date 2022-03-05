@@ -5,6 +5,10 @@
     width:100%
 }
 
+.image:hover{
+    cursor: zoom-in;
+}
+
 .imgwrapper{
    
    padding-left:7%;

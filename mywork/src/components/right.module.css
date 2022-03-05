@@ -127,7 +127,10 @@ margin-bottom: 20px;
     width:45px;
     margin-right:3%;
 }
-
+.sizes:hover {
+    background-color: black;
+    color: white;
+  }
 .socialicons{
     margin-top:20px;
 }
