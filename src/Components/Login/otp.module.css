@@ -1,0 +1,75 @@
+.otp_sent{
+    font-size: 15px;
+    
+}
+.box_no{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+   
+}
+.cut{
+    margin-left: 95%;
+    margin-top: 0px;
+    text-align: center;
+    border:1px solid black;
+    border-radius: 50%;
+   width: 20px;
+   height: 20px;
+   font-weight: bold;
+   cursor: pointer;
+}
+.box_no > h6{
+font-size: 20px;
+margin-top: 10px;
+}
+.box_no > p{
+   color: rgb(235, 99, 144);
+margin-top: 10px;
+text-decoration: underline;
+
+ 
+  
+}
+.otp_input{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.otp_input > input{
+    width: 40px;
+    height: 40px;
+}
+
+.continue_btn{
+    background-color: rgba(252,101,135,255);
+    color: white;
+    font-size: 20px;
+    border : none;
+    width: 100%;
+    padding: 2vh;
+    margin-top: 2vh;
+cursor: pointer;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box2 > p{
+    font-style: italic;
+    font-size: small;
+
+}
+.box2 > h6 {
+    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.p_last{
+    color:rgba(252,101,135,255);
+    text-decoration: underline;
+    cursor: pointer;
+}

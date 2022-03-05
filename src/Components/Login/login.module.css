@@ -1,0 +1,108 @@
+.quicker{
+    font-weight: bold;
+}
+input{
+margin : 3vh auto;
+padding: 2vh;
+width: 93%;
+font-size: 20px;
+border: 1px solid lightgray;
+
+}
+.btn{
+    background-color :rgba(252,101,135,255);
+    color: white;
+    padding: 2vh;
+    font-size: 20px;
+    border: none;
+    width : 100%
+}
+
+.line >p {
+    font-family: sans-serif;
+    margin: 10px auto;
+    
+    text-align: center;
+    font-size: 15px;
+    max-width: 600px;
+    position: relative;
+  }
+  .line>p:before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    background: gray;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+  .line>p:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    background: gray;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+  .btn_box{
+      display: flex;
+      justify-content: center;
+  }
+  .img{
+    width : 6vh;
+    height : 6vh;
+    border-radius: 5px;
+  }
+  .fblogo_div{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(76,105,164,255);
+    margin-right: 2vh;
+    border-radius: 5px;
+   
+    cursor: pointer;
+  }
+  .fblogo_div>button{
+    background-color:rgba(76,105,164,255); 
+    color: white;
+    border: none;
+    padding: 2vh;
+    border-radius: 5px;
+  }
+  .googlelogo_div{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(209,66,63,255);
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .googlelogo_div > button{
+    background-color: rgba(209,66,63,255);
+    color: white;
+    border: none;
+    padding: 2vh;
+    border-radius: 5px;
+  }
+.skip{
+  margin-top: 30px;
+  text-align: center;
+  color: gray;
+}
+.cut{
+  margin-left: 95%;
+  margin-top: 0px;
+  text-align: center;
+  border:1px solid black;
+  border-radius: 50%;
+ width: 20px;
+ height: 20px;
+ font-weight: bold;
+ cursor: pointer;
+}
