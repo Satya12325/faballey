@@ -1,0 +1,5 @@
+.wrapperleftright{
+    display:grid;
+    grid-template-columns: 65% 35%;
+    /* border:1px solid black; */
+}

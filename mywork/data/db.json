@@ -1,0 +1,55 @@
+{
+    "Tops": [
+        { "id": 1,
+         "title": "Cut Away Crop Top - Black",
+         "price": 255,
+         "code": "SKU:TOP01214A",
+         "details":"This sexy cut out crop top will define your tiny waist like no other. Featuring full sleeves and an easy throw on wear.",
+         "image1": "https://img.faballey.com/images/Product/TOP01214A/3.jpg",
+         "image2":"https://img.faballey.com/images/Product/TOP01214A/4.jpg",
+         "image3":"https://img.faballey.com/images/Product/TOP01214A/5.jpg",
+         "image4":"https://img.faballey.com/images/Product/TOP01214A/6.jpg",
+         "image5":"https://img.faballey.com/images/Product/TOP01214A/7.jpg",
+         "discount": 50,
+         "size":{
+             "x": true,
+             "m": false,
+             "l":true,
+             "xl":true
+         },
+         "colour": {
+             "blue": true,
+             "pink":false,
+             "orange":false,
+             "black": true,
+             "yellow": false
+         },
+         "occasion" : {
+             "casual": true,
+             "party": true,
+             "work": false
+         },
+         "fabric" : {
+             "cotton": true,
+             "viscose": true,
+             "jersey": false,
+             "polyster":false
+         },
+         "pattern" : {
+             "solid": true,
+             "checked": false,
+             "printed": true
+         },
+         "sleevs":{
+             "short": true,
+             "full": false
+         },
+         "length":{
+             "regular": true,
+             "crop": true,
+             "long": false
+         }
+         
+     }
+     ]
+}
