@@ -10,8 +10,8 @@ export const Left = ({items}) => {
         {items.map((item) => (
             <Box  className = {styles.imgwrapper} sx={{
                 display: 'grid',
-                columnGap: 1,
-                rowGap: 4,
+                columnGap: 3,
+                rowGap: 3,
                 gridTemplateColumns: 'repeat(2, 1fr)',
               }}>
                   <img src={item.image1} alt = "image1" className={styles.image}></img>
