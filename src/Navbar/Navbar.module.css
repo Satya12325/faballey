@@ -32,6 +32,9 @@ p{
 }
 .btn:hover{    
     border-bottom: 5px solid tomato;
+<<<<<<< HEAD
+}
+=======
 }
 .cart{
     font-size: 12px;
@@ -71,3 +74,4 @@ p{
         
     }
 }
+>>>>>>> b8df36e9f5a882f9a78eaeeae0d91710f312de6c

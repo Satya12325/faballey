@@ -7,8 +7,6 @@ import Shipping from "../Components/Cartcomponents/Shipping"
 
 export const Routing = () => {
   return (
-   
-
     <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/otp" element={<BasicModal/>}></Route>
