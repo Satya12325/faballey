@@ -45,8 +45,8 @@ const shippingf = () => {
                 <sup style={{fontSize:"13px"}}>(70% off)</sup>
             </section>
             
-            <section style={{color:'green',marginBottom:'6px'}}>Inclusive of all taxes</section>
-            <section className={styles.graytext} styles={{fontSize:"8px"}}>{item.code}</section>
+            <section style={{color:'#03bb5c',marginBottom:'6px',fontWeight:'600'}}>Inclusive of all taxes</section>
+            <section className={styles.graytext} style={{fontSize:"12px",fontWeight:'600'}}>{item.code}</section>
              
              <h4 className={styles.boldtext} style={{margin:0,marginTop:"15px"}}>SIZE: </h4>
             
