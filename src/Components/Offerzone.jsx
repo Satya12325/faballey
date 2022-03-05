@@ -7,18 +7,24 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Carousel from "react-elastic-carousel";
+import {useSelector,useDispatch,shallowEqual} from "react-redux";
+
+import {useEffect} from "react";
+import {getProductRequest,getProduct} from "../Redux/Allproduct/action";
 
 
-function MediaControlCard({image,title,price,discount}) {
+
+
+
+function MediaControlCard({image,productName,price,discount}) {
   
   
     return (
-        <div style={{width:"100%",}}>
-            <img style={{width: "100%", height: "400px"}} src={image} alt=""/>
-            <div>{title}</div>
-            <div>
-            {price}
-            {discount}
+        <div style={{fontSize: "13px",textAlign:"start",fontWeight:"bold",margin:"10px"}}>
+            <img style={{width: "100%", height: "300px"}} src={image} alt=""/>
+            <div >{productName}</div>
+            <div style={{color:"red"}}>
+           ₹ {price}             
             </div>
       </div>
     );
@@ -42,38 +48,63 @@ function SmallScroll(){
 
 
 
-export default function BannerSlider(){
-     
+export default function Offerzone(){
+    const dispatch = useDispatch();
+
+    const {product,isLooding} = useSelector(
+        (state) => state.app,
+        shallowEqual
+        );
  
-    
+   
+    const getProducts = ()=>{
+        const requestAction = getProductRequest();
+        dispatch(requestAction);
+        return fetch(`http://localhost:3000/products`)
+        .then((response) => response.json())
+        .then((response) => {
+            console.log(response)
+            const successAction = getProduct(response)
+            dispatch(successAction);
+        })
+        .catch((error) => {
+            console.log(error);
+        })
+    };
+
+    useEffect(() => {
+        getProducts();
+    },[]);
+
+
+
+
 
     const breakPoints = [
-        { width: 1, itemsToShow: 1 },
-        { width: 550, itemsToShow: 2 },
-        { width: 768, itemsToShow: 3 },
-        { width: 1200, itemsToShow: 4 },
+        { width: 1200, itemsToShow: 1 },
+        { width: 550, itemsToShow: 5 },
+        { width: 768, itemsToShow: 5 },
+        { width: 1200, itemsToShow: 6 },
       ];
 
 
     return(
         <>
+      <div>
       
-   <Carousel breakPoints={breakPoints} style={{backgroundColor:"black",marginTop:"80px"}}>
-    <MediaControlCard
-            image="https://img.faballey.com/images/banner/4678df20-49d5-4dc0-8645-3eacb584054d.jpg"
-            
-
-        />
-        <MediaControlCard
-            image="https://img.faballey.com/images/banner/66a79736-ed09-4f82-83bd-a2e6099f160e.jpg"
-            
-
-        />
-       <MediaControlCard
-            image="https://img.faballey.com/images/banner/4678df20-49d5-4dc0-8645-3eacb584054d.jpg"
-            
-
-        />
+      </div>
+   <Carousel breakPoints={breakPoints}>
+   {
+       product?.map((item) => (
+           <MediaControlCard
+           key={item.id}
+            image={item.image[0]}
+            productName={item.productName}
+           price={item.price}
+           discount={item.discount}
+           />
+       ))
+   }
         
     </Carousel>
 

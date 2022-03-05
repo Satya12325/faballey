@@ -38,7 +38,7 @@ const [usernum,setuserNum] = useState("");
 
   return (
     <div>
-      <Button onClick={handleOpen}>Login</Button>
+      <div onClick={handleOpen}>Login</div>
       <Modal
         open={open}
         onClose={handleClose}

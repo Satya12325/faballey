@@ -32,4 +32,27 @@ p{
 }
 .btn:hover{    
     border-bottom: 5px solid tomato;
+<<<<<<< HEAD
 }
+=======
+}
+.cart{
+    font-size: 12px;
+    width:250px;
+    display:flex;
+    justify-content:space-between;
+    margin:10px
+}
+@media screen and (max-width:550px){
+    .Nav{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    .images{
+        width: 200px;
+        margin: auto;
+    }
+}
+>>>>>>> b8df36e9f5a882f9a78eaeeae0d91710f312de6c

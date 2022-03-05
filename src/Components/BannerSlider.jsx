@@ -7,6 +7,9 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Carousel from "react-elastic-carousel";
+import style from "./Component.module.css";
+
+
 
 
 function MediaControlCard({image}) {
@@ -14,7 +17,7 @@ function MediaControlCard({image}) {
   
     return (
         <div style={{width:"100%",}}>
-            <img style={{width: "100%", height: "400px"}} src={image} alt=""/>
+            <img style={{width: "100%",}} src={image} alt=""/>
       </div>
     );
   }

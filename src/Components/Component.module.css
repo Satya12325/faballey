@@ -10,3 +10,64 @@
 .YellowSection{
     padding: 10px;
 }
+.Spotlight{
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;
+    margin: auto;
+    justify-content: space-between;
+   
+}
+
+@media screen and (max-width:450px){
+    .Spotlight{
+        flex-direction: column;
+        width: 40%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    
+}
+
+.JustSun{
+    width: 98%;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+}
+.sun{
+    width: 100%;
+
+}
+.SunImg{
+width:60%;
+}
+.JustSunText{
+    width:80%;
+    margin: auto;
+}
+@media screen and (max-width:450px){
+   
+    .JustSun{
+        flex-direction: column;
+    }
+    .sun{
+        width: 100%;
+    }
+    .SunImg{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+
+@media screen and (max-width:450px){
+    .Explore{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    
+}
