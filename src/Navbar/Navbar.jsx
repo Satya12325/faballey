@@ -78,7 +78,7 @@ return (
       <CssBaseline />
       <ElevationScroll {...props}>
         <AppBar style={{backgroundColor:"white",color:"black",height:""}}>
-        <div style={{border:"1px solid gray", height:"40px",display:"flex",padding:"0 20px",justifyContent:"space-between",position:"relative"}}>
+        <div className= {style.sale}>
            <Link to={"/product"} style={{textDecoration:"none"}}> <Typography component="div" className={style.Nav} style={{fontSize:"10px",marginTop:"10px",color:"red"}}>
              SALE | UPTO 65% off. <span style={{color:"black"}}>Shop Now <ArrowForwardIosIcon style={{fontSize:"10px"}}/></span>
             </Typography></Link>
@@ -97,7 +97,7 @@ return (
             <div className={style.Right}>SignUp</div>
             <div>
             <Badge color="secondary" badgeContent={0} showZero>
-          <WorkOutlineIcon/>
+          <Link to={"/shipping"}><WorkOutlineIcon/></Link>
         </Badge>
             </div>
             </div>

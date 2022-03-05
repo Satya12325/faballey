@@ -1,0 +1,224 @@
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
+import MenuItem from '@mui/material/MenuItem';
+import TextareaAutosize from '@mui/material/TextareaAutosize';
+import style from "./Shipping.module.css"
+import Typography from "@mui/material/Typography";
+import { useTheme } from '@mui/material/styles';
+import CardMedia from '@mui/material/CardMedia';
+
+
+
+
+
+function MediaControlCard({image, title,quantity,price}) {
+    const theme = useTheme();
+  
+    return (
+        <Box style={{background: "white",padding:"10px"}}>
+      <Box sx={{ display: 'flex', width:"350px",height: "100px"}}>
+           <CardMedia
+          component="img"
+          sx={{ width: "80px",height:"80px" ,}}
+          image={image}
+          alt="Live from space album cover"
+        />
+        <Box sx={{ display: 'flex', flexDirection: 'column',padding:"0 10px" }}>
+        <Typography  style={{fontSize:"10px"}}>
+             {title}</Typography>
+             <Typography  style={{fontSize:"10px"}}>
+             Qty: {quantity}</Typography>
+             <Typography  style={{fontSize:"10px"}}>
+             Price: ₹ {price}</Typography>
+        </Box>
+       
+      </Box>
+      </Box>
+    );
+  }
+
+
+export default function Shipping(){
+    
+   
+    // <option value="22"></option><option value="22"></option><option value="3"></option>
+    // <option value="13">Belgium</option><option value="7">Australia</option>
+   
+const currencies = [
+    {
+      value: 'India',
+      label: 'India',
+    },
+    {
+      value: '',
+      label: 'Select',
+    },
+    {
+      value: 'Guyana',
+      label: 'Guyana',
+    },
+    {
+      value: 'Greece',
+      label: 'Greece',
+    },
+    {
+        value: 'Germany',
+        label: 'Germany',
+      },
+      {
+        value: 'France',
+        label: 'France',
+      },
+      {
+        value: 'Fiji',
+        label: 'Fiji',
+      },
+      {
+        value: 'China',
+        label: 'China',
+      },
+      {
+        value: 'Canada',
+        label: 'Canada',
+      },
+     {
+        value: 'Canada',
+        label: 'Canada',
+     }
+
+
+  ];
+
+  const [currency, setCurrency] = React.useState('EUR');
+
+  const handleChange = (event) => {
+    setCurrency(event.target.value);
+  };
+   
+   
+    return(
+        <>
+        <div className={style.mainContainer}>
+        <div className={style.Leftdiv}>
+        <Typography
+          variant="h5"
+          style={{ }}
+        >
+          Where do you want us to deliver?
+        </Typography>
+         <Box
+      component="form"
+      sx={{
+        '& > :not(style)': { m: 1, width: '25ch' },
+        border: "1px solid rgb(221, 219, 219)"
+      }}
+      noValidate
+      autoComplete="off"
+    >
+      <TextField style={{width:"300px"}} id="outlined-basic" label="Full name" variant="outlined" />
+      <TextField
+      style={{width:"300px"}}
+          id="outlined-number"
+          label="Mobile number*"
+          type="number"
+          variant="outlined"
+        />
+         <TextField
+         style={{width:"300px"}}
+          id="outlined-number"
+          label="Pin code"
+          type="number"
+          variant="outlined"
+        />
+        <TextField
+        style={{width:"300px"}}
+          id="outlined-select-currency"
+          select
+          label="Select"
+          value={currency}
+          onChange={handleChange}
+          helperText="Please select your currency"
+        >
+          {currencies.map((option) => (
+            <MenuItem key={option.value} value={option.value}>
+              {option.label}
+            </MenuItem>
+          ))}
+        </TextField>
+       < div>
+            Address
+            <TextareaAutosize
+      aria-label="empty textarea"
+      
+      style={{ width: "600px",height: "200px" }}
+    />
+    </div>
+    <TextField style={{width:"300px"}} id="outlined-basic" label="Citey" variant="outlined" />
+    <TextField style={{width:"300px"}} id="outlined-basic" label="State" variant="outlined" />
+    <button
+    style={{height:"40px",width:"200px",border:"0",backgroundColor:"#FC6486",color:"#FFFFFF",padding:"5px 20px"}}
+    >Deliver to this Address</button>
+    </Box>
+    </div>
+    <div>
+
+    </div>
+        <div className={style.Rightdiv}>
+        <Typography
+          variant="h5"
+          style={{ }}
+        >
+          Product Details
+        </Typography>
+        <Box>
+            <MediaControlCard
+            image="https://img.faballey.com/images/Product/DRS04773Z/1.jpg"
+                title="Orange Strappy Tie Shoulder Ruffled Belted Dress"
+                quantity="1"
+                price=  {"2000"}
+           />
+        </Box>
+        <Typography
+          variant="h5"
+          style={{ }}
+        >
+        Price Details
+        </Typography>
+        <Box className={style.price}>
+            <div className={style.Total}>
+            <Typography
+         
+          style={{ }}
+        >
+        Sub Total
+        </Typography>
+        <Typography
+          
+          style={{ }}
+        >
+            ₹ 2100
+        </Typography>
+            </div>
+            <div className={style.Total}>
+            <Typography
+          
+          style={{ }}
+        >
+        Total
+        </Typography>
+        <Typography
+          
+          style={{ }}
+        >
+            ₹ 2100
+        </Typography>
+            </div>
+        </Box>
+        </div>
+
+
+    </div>
+        </>
+    )
+}

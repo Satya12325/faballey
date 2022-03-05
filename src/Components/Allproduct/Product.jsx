@@ -334,8 +334,15 @@ useEffect(() => {
              state.map((e)=>(
 
                  <div className={styles.particularproduct} key={e._id}>
-
-               <img onMouseEnter={()=>handleImages(e._id)} onMouseLeave={()=>{handleImages(e._id)}}  src={e.status? e.image[0] : e.image[1]} alt="image" />
+                <div className={styles.background}
+                style={{background:`url(${e.image[1]})`,width:"100%",height:"350px",
+                backgroundSize: "250px 350px",
+                backgroundRepeat: "no-repeat",
+                }}
+                 >
+               
+               <img className={styles.changeImg} src={e.image[0]} alt="image" />
+               </div>
                <NavLink style={{textDecoration:"none"}} to={`/productss/${e._id}`}>
                <p  className={styles.fontofproductname}>{e.productName}</p></NavLink>
                <p  className={styles.fontofproductnamecolor}>₹ {e.price-e.discount} <span> ₹</span><span className={styles.forlinethrough}> {e.price}</span> </p>

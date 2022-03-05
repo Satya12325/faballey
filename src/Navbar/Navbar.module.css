@@ -40,6 +40,17 @@ p{
     justify-content:space-between;
     margin:10px
 }
+.images{
+    display:flex;
+}
+.sale{
+    border : 1px solid gray;
+    height: 40px;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    
+}
 @media screen and (max-width:550px){
     .Nav{
         display: none;
@@ -50,5 +61,13 @@ p{
     .images{
         width: 200px;
         margin: auto;
+    }
+    .sale{
+        border : 1px solid gray;
+        height: 40px;
+        display: inline;
+        padding: 0 20px;
+       
+        
     }
 }

@@ -1,0 +1,27 @@
+.mainContainer{
+    width:80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Leftdiv{
+    width:63%;
+    
+
+}
+.Rightdiv{
+    width: 35%;
+   margin-left: 20px;
+}
+.price{
+    width:100%;
+    background-color: #F4F4F4;
+    padding:15px
+}
+.Total{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    border-bottom:1px solid #D6D6D6;
+}
