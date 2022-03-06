@@ -7,14 +7,22 @@ import style from "./Shipping.module.css"
 import Typography from "@mui/material/Typography";
 import { useTheme } from '@mui/material/styles';
 import CardMedia from '@mui/material/CardMedia';
-
-
-
+import {CartHeader} from "./CartHeader"
+import CartFooter from "./Cartfooter"
+import { useEffect } from 'react'
+import { useDispatch,useSelector } from 'react-redux'
+import { cartapi } from '../../Redux/Shopping_cart/cart.api';
+import {useNavigate} from "react-router-dom"
 
 
 function MediaControlCard({image, title,quantity,price}) {
     const theme = useTheme();
-  
+    
+    
+
+
+
+
     return (
         <Box style={{background: "white",padding:"10px"}}>
       <Box sx={{ display: 'flex', width:"350px",height: "100px"}}>
@@ -41,10 +49,21 @@ function MediaControlCard({image, title,quantity,price}) {
 
 export default function Shipping(){
     
-   
+  const dispatch = useDispatch();
+  const neviget = useNavigate();
+  useEffect(()=>{
+    dispatch(cartapi())
+  },[])
     // <option value="22"></option><option value="22"></option><option value="3"></option>
     // <option value="13">Belgium</option><option value="7">Australia</option>
    
+  const {isLoading,isError,cart} = useSelector((state)=>state.shoppingCart)
+  const total_sum = cart.reduce((acc,current)=>{
+    return(
+      acc+current.discount *current.quantity
+    )
+  
+  },0)
 const currencies = [
     {
       value: 'India',
@@ -96,9 +115,13 @@ const currencies = [
     setCurrency(event.target.value);
   };
    
+  const handleDeliver = ()=>{
+    neviget("/payment")
+  }
    
     return(
         <>
+        <CartHeader/>
         <div className={style.mainContainer}>
         <div className={style.Leftdiv}>
         <Typography
@@ -158,6 +181,8 @@ const currencies = [
     <TextField style={{width:"300px"}} id="outlined-basic" label="State" variant="outlined" />
     <button
     style={{height:"40px",width:"200px",border:"0",backgroundColor:"#FC6486",color:"#FFFFFF",padding:"5px 20px"}}
+    onClick={handleDeliver}
+    
     >Deliver to this Address</button>
     </Box>
     </div>
@@ -172,12 +197,20 @@ const currencies = [
           Product Details
         </Typography>
         <Box>
-            <MediaControlCard
-            image="https://img.faballey.com/images/Product/DRS04773Z/1.jpg"
-                title="Orange Strappy Tie Shoulder Ruffled Belted Dress"
-                quantity="1"
-                price=  {"2000"}
-           />
+            {cart.map((item)=>{
+              return(
+                
+                <MediaControlCard
+                image={item.image}
+                    title={item.productName}
+                    quantity={item.quantity}
+                    price=  {item.discount}
+               />
+               
+              )
+            })
+             
+            }
         </Box>
         <Typography
           variant="h5"
@@ -197,7 +230,7 @@ const currencies = [
           
           style={{ }}
         >
-            ₹ 2100
+            ₹ {total_sum}
         </Typography>
             </div>
             <div className={style.Total}>
@@ -211,7 +244,7 @@ const currencies = [
           
           style={{ }}
         >
-            ₹ 2100
+            ₹ {total_sum}
         </Typography>
             </div>
         </Box>
@@ -219,6 +252,7 @@ const currencies = [
 
 
     </div>
+    <CartFooter/>
         </>
     )
 }

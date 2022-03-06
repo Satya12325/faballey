@@ -857,15 +857,14 @@
   ],
   "cart": [
     {
-      "id": "38b49ac4-fecc-4c36-ab61-77144710f9cc",
-      "productName": "Green Back Cut Out Buttoned Jumpsuit",
-      "price": 2300,
-      "sizes": "m",
-      "color": "green",
-      "image": "https://img.faballey.com/images/Product/DRS04759Z/d3.jpg",
-      "discount": 400,
+      "id": "01c9125b-53d3-4f6e-bae7-34625a621597",
+      "productName": "Blush Pink Pleated Full Sleeve Dress",
+      "price": 1900,
+      "sizes": "s",
+      "color": "pink",
+      "image": "https://img.faballey.com/images/Product/DRS04473Z/d3.jpg",
+      "discount": 900,
       "quantity": 1
     }
-    
   ]
 }

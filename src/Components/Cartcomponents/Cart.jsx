@@ -7,6 +7,11 @@ import styles from "./cart.module.css"
 import { AiFillPlusCircle } from 'react-icons/ai';
 import { MdArrowLeft } from 'react-icons/md';
 import {useNavigate} from "react-router-dom"
+import {CartHeader} from "./CartHeader";
+import Cartfooter from "./Cartfooter";
+
+
+
 export const Cart = () => {
   const dispatch = useDispatch();
   const neviget = useNavigate();
@@ -31,7 +36,7 @@ export const Cart = () => {
   return (
       <>
      
-       
+       <CartHeader/>
        <div  className={styles.main}> 
          <div className={styles.left}>
          <h2 className={styles.coloer}>My Shopping Bag<span >({cart.length})</span></h2>
@@ -91,7 +96,7 @@ export const Cart = () => {
          </div>
        
        </div>
-     
+     <Cartfooter/>
       </>
    
   )

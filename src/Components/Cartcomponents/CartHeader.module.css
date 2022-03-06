@@ -1,0 +1,79 @@
+/* * {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #000;
+
+} */
+
+.chkHeadmain {
+    width: 100%;
+    background: #f4f4f4;
+    height: 70px;
+}
+
+.shopingStep {
+    display: flex;
+    left: 40%;
+    top: 0;
+    position: absolute;
+    font-size: 12px;
+}
+
+.ulbagMain {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.checkoutLogo {
+    float: left;
+    max-width: 150px;
+}
+
+.checkoutLogo img {
+    max-width: 100%;
+    padding: 17px;
+}
+
+img {
+    border: none;
+}
+.stepActive {
+
+    padding: 11px 30px;
+}
+.shopingStep i {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+
+}
+.shopingStep .stepActive {
+   /*  color: #fc6486;
+    border-bottom: 3px solid #fc6486; */
+    color: #adadad;
+}
+.pinkIcon{
+    color: #fc6486;
+}
+.paymentPink{
+    color: #fc6486;
+    border-bottom: 3px solid #fc6486;
+}
+.stepActive ~ div{
+        color: #adadad;
+        padding: 11px 30px;
+        display: block;
+        cursor: default;
+        text-align: center;
+
+}
+.secureBox {
+    font-size: 14px;
+    float: right;
+    color: #adadad;
+    line-height: 30px;
+    margin-top: 15px;
+}

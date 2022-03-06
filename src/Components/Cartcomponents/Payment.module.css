@@ -1,0 +1,332 @@
+.paymentcontainer {
+    padding: 3%;
+    width: 80%;
+    margin: auto;
+    margin-left: 15%;
+}
+
+.paymenttitleleft {
+    width: 50%;
+    float: left;
+
+}
+
+.paymentheading {
+    padding: 15px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.paymentheading p {
+    float: left;
+    font-size: 20px;
+    color: #555555;
+}
+
+
+/* ---payment-method-styles----- */
+
+.paymentmethodlist {
+    display: block;
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    border: 1px solid #eaeaea;
+}
+
+.active {
+    color: #fc6486;
+    border-right: 3px solid #fc6486;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    background: #fff;
+    display: block;
+    font-size: 14px;
+    padding: 8%;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 99.99%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.btnmethod {
+    border-bottom: 1px solid #eaeaea;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    display: block;
+    font-size: 14px;
+    padding: 8%;
+    background-color: #f4f4f4;
+    text-transform: uppercase;
+    font-weight: 510;
+    color: #555;
+    width: 99.99%;
+    text-align: left;
+    cursor: pointer;
+}
+
+
+/*----------------------------- middle section----------- */
+
+.paymentform {
+    border: 1px solid #efefef;
+    margin-left: 35%;
+    width: 60%;
+
+}
+
+.paymentform h3 {
+    padding: 14px;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    text-transform: uppercase;
+}
+
+.paymentcreditsection {
+    padding: 10px 15px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.cardnumber {
+    line-height: 20px;
+    font-size: 13px;
+    padding: 11px;
+    color: #777;
+    width: 91%;
+    height: 60%;
+    border: 1px solid #eaeaea;
+    margin-bottom: 5%;
+}
+
+.cardname {
+    line-height: 20px;
+    font-size: 13px;
+    padding: 11px;
+    color: #777;
+    width: 91%;
+    height: 60%;
+    border: 1px solid #eaeaea;
+}
+
+.carddetails {
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+}
+
+.cardyearitem,.cardmonthitem,.cardcvvitem {
+    height: 5%;
+    width: 5%;
+    margin-right: 10%;
+}
+
+.cardmonth {
+    line-height: 20px;
+    font-size: 12px;
+    padding: 11px;
+    color: #777;
+    border: 1px solid #eaeaea;
+    max-width: 100%;
+}
+
+.cardyear {
+    line-height: 20px;
+    font-size: 13px;
+    padding: 11px;
+    color: #777;
+    border: 1px solid #eaeaea;
+    max-width: 100%;
+}
+
+.cardcvv {
+    line-height: 20px;
+    font-size: 13px;
+    padding: 11px;
+    color: #777;
+    border: 1px solid #eaeaea;
+    max-width: 180%;
+}
+
+.btnpayment {
+    font-size: 14px;
+    width: 90%;
+    padding: 18px;
+    background: #fc6486;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.payaddress {
+    margin-bottom: 3%;
+}
+
+
+/* ------------------------------------footer styles-------------------------------------------- */
+
+.contactfooter {
+    /* margin-bottom: 30px; */
+    padding: 15px 0;
+    border-top: 1px solid #dcdcdc;
+    position: fixed;
+    left: 0;
+    bottom: 9%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.contactmain {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contactitem {
+    text-align: center;
+}
+
+.contactpara p {
+    font-size: 13px;
+    padding: 4px 0;
+}
+
+.contactpara p span {
+    font-weight: 600;
+}
+
+.optionBox {
+    background: #f4f4f4;
+    padding: 20px;
+    margin-top: 25px;
+    width: 80%;
+}
+
+.productdetails {
+    width: 35%;
+    float: right;
+    padding: 15px 0 40px 0;
+    margin-right: 15%;
+}
+.productdetails h3{
+        float: left;
+        font-size: 20px;
+        color: #555555;
+        font-weight: 400;
+        padding-bottom: 10px;
+}
+.przdlmain {
+    display: inline-block;
+}
+.prizeDetailbox {
+    display: inline-block;
+    width: 100%;
+}
+.prizeDetail {
+    width: 100%;
+    float: left;
+    padding: 4px 0;
+}
+.prizeDetail p {
+    float: left;
+    font-size: 14px;
+    color: #6e6e6e;
+}
+.prizeDetail span {
+    float: right;
+    font-size: 14px;
+    color: #6e6e6e;
+}
+.prizeDetail i {
+    margin: 2px 2px 0 0;
+    float: left;
+}
+.bagdislbl {
+    color: #fc6486 !important;
+}
+.orderTotal {
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+    margin-top: 8px;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+}
+.orderTotal p {
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fc6486;
+}
+.orderTotal span {
+    float: right;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fc6486;
+}
+.ptmchngeAdrs {
+    display: inline-block;
+    width: 90%;
+    padding-top: 20px;
+}
+.paymentRight h3 {
+    float: left;
+    font-size: 20px;
+    color: #555555;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.ptmchngeAdrs p a {
+    font-size: 14px;
+    color: #fc6486;
+    font-weight: 400;
+    float: right;
+    text-decoration: underline;
+    line-height: 22px;
+}
+.deliverAddres {
+    padding: 20px;
+    display: inline-block;
+    width: 80%;
+    border: 1px solid #ececec;
+}
+.deliverAddres p {
+    color: #4a4a4a;
+    font-size: 13px;
+}
+.shipdays {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #4a4a4a;
+    border: 1px solid #efefef;
+    padding: 10px;
+    width: 85%;
+}
+.bagftsecure {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.securessl p {
+    font-size: 12px;
+    color: #999;
+    padding-right: 1rem;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1220px) {
+    .contactmain {
+        width: 95%;
+    }
+}

@@ -137,7 +137,18 @@ return (
             <div className={style.Right}><LoginModal/></div>
             <div className={style.Right}>SignUp</div>
             <div>
-            <Badge color="secondary" badgeContent={no} showZero>
+            <Badge color="secondary" 
+            sx={{
+              "& .MuiBadge-badge": {
+                color: "#fff",
+                backgroundColor: "#fc6486",
+                marginTop:1,
+                width:2.5,
+                height:15,
+              }
+            }}
+
+            badgeContent={no} showZero>
           <Link to={"/cart"}><WorkOutlineIcon/></Link>
         </Badge>
             </div>

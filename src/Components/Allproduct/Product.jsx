@@ -6,7 +6,7 @@ import Navbar from "../../Navbar/Navbar";
 import {useSelector,useDispatch,shallowEqual} from "react-redux";
 
 import {getProductRequest,getProduct} from "../../Redux/Allproduct/action";
-
+import Footer from '../Footer'
 
 export default function  Products(){
 
@@ -353,7 +353,7 @@ useEffect(() => {
         </div>
         </div>
         </div>
-        
+        <Footer/>
         </>
     )
 }

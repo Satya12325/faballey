@@ -6,6 +6,10 @@ import Products from "../Components/Allproduct/Product";
 import Shipping from "../Components/Cartcomponents/Shipping";
 import {ProductDetails} from "../Components/ProductDetails/ProductDetails";
 import { Cart_page } from '../Pages/CartPAge';
+import { Payment} from "../Components/Cartcomponents/Payment"
+
+
+
 export const Routing = () => {
   return (
     <Routes>
@@ -15,6 +19,7 @@ export const Routing = () => {
         <Route path="/shipping" element={<Shipping/>}></Route>
         <Route path="/product/:id" element={<ProductDetails/>}></Route>
         <Route path="/cart" element={<Cart_page/>}/>
+        <Route path="/payment" element={<Payment/>}/>
     </Routes>
   )
 }
