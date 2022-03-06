@@ -9,7 +9,7 @@ import { MdArrowLeft } from 'react-icons/md';
 import {useNavigate} from "react-router-dom"
 import {CartHeader} from "./CartHeader";
 import Cartfooter from "./Cartfooter";
-
+import { LoginModal } from '../Login/Login'
 
 
 export const Cart = () => {
@@ -20,6 +20,7 @@ export const Cart = () => {
   },[])
   
   const {isLoading,isError,cart} = useSelector((state)=>state.shoppingCart)
+  const {isLogin} = useSelector((state)=>state.auth)
   const total_sum = cart.reduce((acc,current)=>{
     return(
       acc+current.discount *current.quantity
@@ -37,7 +38,7 @@ export const Cart = () => {
       <>
      
        <CartHeader/>
-       <div  className={styles.main}> 
+       {isLogin ?( <div  className={styles.main}> 
          <div className={styles.left}>
          <h2 className={styles.coloer}>My Shopping Bag<span >({cart.length})</span></h2>
         <div>
@@ -95,7 +96,18 @@ export const Cart = () => {
 
          </div>
        
-       </div>
+       </div>) : (
+        <div className={styles.notlogindiv}>
+          <p className={styles.continue_shopping}>Continue Shopping</p>
+        
+          <img className={styles.bag_logo} src="/Images/emtbag.png"  alt="cart"/>
+          <p className={styles.noproduct}>There are no products in your bag.</p>
+          <span className={styles.login1}><LoginModal name ={"Login to your product"}/></span>
+          
+        </div>
+       )
+     
+       }
      <Cartfooter/>
       </>
    

@@ -20,7 +20,7 @@ const style = {
   p: 4,
 };
 
-export  function LoginModal() {
+export  function LoginModal({name}) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -38,7 +38,7 @@ const [usernum,setuserNum] = useState("");
 
   return (
     <div>
-      <div onClick={handleOpen}>Login</div>
+      <div onClick={handleOpen}>{name}</div>
       <Modal
         open={open}
         onClose={handleClose}
@@ -86,7 +86,7 @@ const [usernum,setuserNum] = useState("");
           <p className={styles.skip}>Skip</p>
         </Box>
       </Modal>
-      <BasicModal openOtp={openOtp} handleCloseOtp={handleCloseOtp} />
+      <BasicModal openOtp={openOtp} handleCloseOtp={handleCloseOtp}  usernum={usernum}/>
     </div>
    
   );

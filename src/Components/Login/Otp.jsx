@@ -19,7 +19,7 @@ const style = {
   p: 4,
 };
 
-export  function BasicModal({openOtp,handleCloseOtp}) {
+export  function BasicModal({openOtp,handleCloseOtp,usernum}) {
  
   
 
@@ -31,6 +31,7 @@ export  function BasicModal({openOtp,handleCloseOtp}) {
 
   const handleLogin = ()=>{
     dispatch(loginApi("123445"));
+    handleCloseOtp()
   }
   return (
     <div>
@@ -50,7 +51,7 @@ export  function BasicModal({openOtp,handleCloseOtp}) {
             <p className={styles.otp_sent}>A 4-digit OTP has been sent to</p>
         
           <div className={styles.box_no}>
-            <h6>8787018291</h6>
+            <h6>{usernum}</h6>
             <p>Change Number</p>
 
           </div>

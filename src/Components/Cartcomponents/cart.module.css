@@ -137,7 +137,7 @@ text-align: left;
     border : 1px solid rgb(214, 210, 210);
     cursor: pointer;
     padding: 1vh;
-    color:rgba(252,101,135,255); ;
+    color:rgba(252,101,135,255); 
 }
 
 @media only screen and (max-width : 718px){
@@ -174,4 +174,30 @@ text-align: left;
          margin: auto;
      }
     
+}
+.notlogindiv{
+    width: 80%;
+    border: 1px solid black;
+    padding: 2vh;
+    text-align: center;
+    margin: auto;
+   
+}
+.continue_shopping{
+    color: rgba(252,101,135,255); 
+    cursor: pointer;
+    text-align: left;
+    font-size: 20px;
+    
+}
+.bag_logo{
+    margin-top: 100px;
+}
+.noproduct{
+    font-size: 25px;
+    
+}
+.login1{
+    font-size: 20px;
+    text-decoration: underline;
 }
