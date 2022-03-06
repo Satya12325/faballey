@@ -98,7 +98,7 @@ export const Cart = () => {
        
        </div>) : (
         <div className={styles.notlogindiv}>
-          <p className={styles.continue_shopping}>Continue Shopping</p>
+          <p className={styles.continue_shopping} onClick={() => neviget("/product")}><MdArrowLeft/>Continue Shopping</p>
         
           <img className={styles.bag_logo} src="/Images/emtbag.png"  alt="cart"/>
           <p className={styles.noproduct}>There are no products in your bag.</p>
