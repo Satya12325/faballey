@@ -1,0 +1,12 @@
+.card{
+    width:31.5%;
+
+}
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.YellowSection{
+    padding: 10px;
+}

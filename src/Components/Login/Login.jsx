@@ -14,7 +14,8 @@ const style = {
   transform: 'translate(-50%, -50%)',
   width: 500,
   bgcolor: 'white',
-/*  border: '1px solid black',*/
+ border: '1px solid white',
+
   borderRadius : "5px",
   boxShadow: 24,
   p: 4,
@@ -38,7 +39,7 @@ const [usernum,setuserNum] = useState("");
 
   return (
     <div>
-      <Button onClick={handleOpen}>Login</Button>
+      <div onClick={handleOpen}>Login</div>
       <Modal
         open={open}
         onClose={handleClose}
@@ -86,7 +87,7 @@ const [usernum,setuserNum] = useState("");
           <p className={styles.skip}>Skip</p>
         </Box>
       </Modal>
-      <BasicModal openOtp={openOtp} handleCloseOtp={handleCloseOtp} />
+      <BasicModal openOtp={openOtp} handleCloseOtp={handleCloseOtp} usernum={usernum} />
     </div>
    
   );
