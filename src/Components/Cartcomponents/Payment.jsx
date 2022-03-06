@@ -3,7 +3,7 @@ import Cartfooter from './Cartfooter'
 import { CartHeader } from './CartHeader'
 import styles from './Payment.module.css'
 import { useDispatch,useSelector } from 'react-redux'
-import { cartapi } from '../../Redux/Shopping_cart/cart.api';
+import { cartapi ,delete_api} from '../../Redux/Shopping_cart/cart.api';
 import {useNavigate} from "react-router-dom"
 import { useEffect } from 'react'
 
@@ -29,7 +29,7 @@ export const Payment = () => {
   const handlePay = ()=>{
 
     alert("payment sucessfully received")
-
+    dispatch(delete_api(cart.id))
     neviget("/")
   }
     return (
