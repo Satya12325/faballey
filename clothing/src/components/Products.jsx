@@ -294,7 +294,7 @@ pro1()
 
                  <div className={styles.particularproduct} key={e._id}>
 
-               <img onMouseEnter={()=>handleImages(e._id)} onMouseLeave={()=>{handleImages(e._id)}}  src={e.status? e.image[0] : e.image[1]} alt="image" />
+               <img onMouseEnter={()=>handleImages(e.id)} onMouseLeave={()=>{handleImages(e.id)}}  src={e.status? e.image[0] : e.image[1]} alt="image" />
                <NavLink style={{textDecoration:"none"}} to={`/productss/${e._id}`}>
                <p  className={styles.fontofproductname}>{e.productName}</p></NavLink>
                <p  className={styles.fontofproductnamecolor}>₹ {e.price-e.discount} <span> ₹</span><span className={styles.forlinethrough}> {e.price}</span> </p>
