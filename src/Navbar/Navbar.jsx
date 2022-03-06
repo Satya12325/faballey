@@ -134,8 +134,8 @@ return (
             <div component="div" className={style.cart} style={{fontSize:"10px",width:"250px",}}>
             <div className={style.Right}>Track Order</div>
             <div className={style.Right}>Gift Card</div>
-            <div className={style.Right}><LoginModal/></div>
-            <div className={style.Right}>SignUp</div>
+            <div className={style.Right}><LoginModal name={"Login"}/></div>
+            <div className={style.Right}><LoginModal name={"Sign up"}/></div>
             <div>
             <Badge color="secondary" 
             sx={{
