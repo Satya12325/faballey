@@ -15,7 +15,17 @@ import BottomNav from './BottomNav';
 import {useState} from "react"
 import styles from "styled-components";
 import { LoginModal } from '../Components/Login/Login'
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
+import { useEffect } from "react"
+import {useSelector,useDispatch,shallowEqual} from "react-redux";
+
+import {getProductRequest,getProduct} from "../Redux/Allproduct/action";
+
+
+
+
+
+
 
 function ElevationScroll(props) {
     const { children, window } = props;
@@ -47,11 +57,42 @@ function ElevationScroll(props) {
 
 
 export default function Navbar(props){
-
-
-
   const [display,setDisplay]=useState("block")
   const[Height,setHeight] = useState("150px")
+
+  const dispatch = useDispatch();
+
+  const {product,isLooding} = useSelector(
+      (state) => state.app,
+      shallowEqual
+      );
+
+      const [data,setData]= useState([])
+
+    const no = product.length;
+    console.log(no,"cart no")
+const getProducts = ()=>{
+  const requestAction = getProductRequest();
+  dispatch(requestAction);
+  return fetch(`http://localhost:3000/cart`)
+  .then((response) => response.json())
+  .then((response) => {
+      console.log(response)
+      const successAction = getProduct(response)
+      dispatch(successAction);
+      setData(response)
+      
+  })
+  .catch((error) => {
+      console.log(error);
+  })
+};
+
+useEffect(() => {
+  getProducts();
+},[no]);
+
+
 
   window.addEventListener('scroll',() =>{
       var scrollTop = document.documentElement.scrollTop;
@@ -96,8 +137,8 @@ return (
             <div className={style.Right}><LoginModal/></div>
             <div className={style.Right}>SignUp</div>
             <div>
-            <Badge color="secondary" badgeContent={0} showZero>
-          <Link to={"/shipping"}><WorkOutlineIcon/></Link>
+            <Badge color="secondary" badgeContent={no} showZero>
+          <Link to={"/cart"}><WorkOutlineIcon/></Link>
         </Badge>
             </div>
             </div>

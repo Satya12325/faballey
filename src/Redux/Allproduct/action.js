@@ -112,3 +112,6 @@ export const addToCart = ({id,title,model,price,image}) => {
 
 
 //   export {getProducts}
+
+
+// cart actions

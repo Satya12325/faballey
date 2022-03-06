@@ -60,7 +60,7 @@ export default function Offerzone(){
     const getProducts = ()=>{
         const requestAction = getProductRequest();
         dispatch(requestAction);
-        return fetch(`http://localhost:3000/products`)
+        return fetch(`http://localhost:3000/cart`)
         .then((response) => response.json())
         .then((response) => {
             console.log(response)
@@ -98,7 +98,7 @@ export default function Offerzone(){
        product?.map((item) => (
            <MediaControlCard
            key={item.id}
-            image={item.image[0]}
+            image={item.image}
             productName={item.productName}
            price={item.price}
            discount={item.discount}

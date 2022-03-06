@@ -1,0 +1,25 @@
+.image{
+    /* height:492px;
+    width:370px; */
+    height:100%;
+    width:100%
+}
+
+.image:hover{
+    cursor: zoom-in;
+}
+
+.imgwrapper{
+   
+   padding-left:7%;
+    
+
+}
+.mainwrapper{
+    display:grid;
+    grid-template-columns: 63% 35%;
+    border-bottom: 1px solid rgb(184, 178, 178);
+    padding-bottom: 20px;
+    /* overflow-y: scroll; */
+   margin-top: 100px;
+}

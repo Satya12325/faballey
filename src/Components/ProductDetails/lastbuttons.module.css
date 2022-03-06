@@ -1,0 +1,11 @@
+.button{
+    background: white;
+    border: 1px solid rgb(189, 189, 189);
+    width:42%;
+    height: 50px;
+    margin:0 20px
+}
+.buttonwrapper{
+    text-align: center;
+    margin:20px;
+}

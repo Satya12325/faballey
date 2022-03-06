@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"
+import { NavLink,Link } from "react-router-dom"
 import { useEffect, useState } from "react"
 import styles from"./Products.module.css";
 import { Sidebar } from "./Sidebar";
@@ -196,7 +196,7 @@ useEffect(() => {
       const handleImages=(id)=>{
 
             const updatelist = state.map((e)=>{
-                if(e._id===id){
+                if(e.id===id){
                  e.status=!e.status
                 }
                 return e
@@ -333,8 +333,8 @@ useEffect(() => {
 
              state.map((e)=>(
 
-                 <div className={styles.particularproduct} key={e._id}>
-                <div className={styles.background}
+               <div className={styles.particularproduct} key={e.id}>
+                <Link to={`/product/${e.id}`} style={{textDecoration:"none",color:"black"}}><div className={styles.background}
                 style={{background:`url(${e.image[1]})`,width:"100%",height:"350px",
                 backgroundSize: "250px 350px",
                 backgroundRepeat: "no-repeat",
@@ -342,9 +342,9 @@ useEffect(() => {
                  >
                
                <img className={styles.changeImg} src={e.image[0]} alt="image" />
-               </div>
-               <NavLink style={{textDecoration:"none"}} to={`/productss/${e._id}`}>
-               <p  className={styles.fontofproductname}>{e.productName}</p></NavLink>
+               </div></Link>
+              
+               <p  className={styles.fontofproductname}>{e.productName}</p>
                <p  className={styles.fontofproductnamecolor}>₹ {e.price-e.discount} <span> ₹</span><span className={styles.forlinethrough}> {e.price}</span> </p>
 
                </div>

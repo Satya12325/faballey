@@ -1,0 +1,23 @@
+.imgslide{
+    margin:20px;
+    width:100%;
+    padding:10px;
+    
+}
+
+.productname{
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.productprice{
+    color:#fc6486;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 3px;
+    padding:0;
+}
+.wrapper{
+    border-bottom: 1px solid rgb(173, 172, 172);
+}

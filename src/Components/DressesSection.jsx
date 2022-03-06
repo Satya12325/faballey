@@ -88,7 +88,7 @@ export default function DressesSection() {
           />
         </div>
         <div>
-          <Offerzone />
+          
         </div>
         <div>
           <Typography
@@ -131,6 +131,7 @@ export default function DressesSection() {
           >
             SHOP MY CART
           </Typography>
+          <Offerzone />
           <img
             style={{ width: "100%" }}
             src="https://img.faballey.com/images/banner/9a8c73d9-e7c3-46d1-aec1-d1a1cb71fb78.jpg"

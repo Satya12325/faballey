@@ -1,6 +1,7 @@
 const initialState = {
   product: [],
   isLooding: true,
+
 }
 
 const appReducer = (state= initialState,{type,payload})=> {
@@ -24,6 +25,9 @@ const appReducer = (state= initialState,{type,payload})=> {
               product : [...state.product, payload.product]
           }
       }
+
+      
+
       default:
           return state;
   }

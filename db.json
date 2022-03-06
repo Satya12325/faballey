@@ -317,7 +317,7 @@
         "https://img.faballey.com/images/Product/FCO00144Z/d4.jpg"
       ],
       "discount": 700,
-      "sizes":"s",
+      "sizes": "s",
       "color": "blue",
       "gender": "female",
       "status": true
@@ -353,7 +353,7 @@
         "https://img.faballey.com/images/Product/FCO00151Z/d4.jpg"
       ],
       "discount": 700,
-      "sizes":"s",
+      "sizes": "s",
       "color": "green",
       "gender": "female"
     },
@@ -438,7 +438,7 @@
         "https://img.faballey.com/images/Product/FCO00105Z/d4.jpg"
       ],
       "discount": 950,
-      "sizes":"s",
+      "sizes": "s",
       "color": "pink",
       "gender": "female"
     },
@@ -472,7 +472,7 @@
         "https://img.faballey.com/images/Product/DRS04354Z/d4.jpg"
       ],
       "discount": 1475,
-      "sizes":"l",
+      "sizes": "l",
       "color": "pink",
       "gender": "female"
     },
@@ -523,7 +523,7 @@
         "https://img.faballey.com/images/Product/TOP05396Z/d4.jpg"
       ],
       "discount": 450,
-      "sizes":"l",
+      "sizes": "l",
       "color": "pink",
       "gender": "female"
     },
@@ -625,7 +625,7 @@
         "https://img.faballey.com/images/Product/TOP05367Z/d4.jpg"
       ],
       "discount": 400,
-      "sizes":"m",
+      "sizes": "m",
       "color": "green",
       "gender": "female"
     },
@@ -854,5 +854,18 @@
       "gender": "female",
       "status": true
     }
+  ],
+  "cart": [
+    {
+      "id": "38b49ac4-fecc-4c36-ab61-77144710f9cc",
+      "productName": "Green Back Cut Out Buttoned Jumpsuit",
+      "price": 2300,
+      "sizes": "m",
+      "color": "green",
+      "image": "https://img.faballey.com/images/Product/DRS04759Z/d3.jpg",
+      "discount": 400,
+      "quantity": 1
+    }
+    
   ]
 }
