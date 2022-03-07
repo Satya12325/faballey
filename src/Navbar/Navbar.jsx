@@ -124,7 +124,7 @@ return (
     <React.Fragment>
       <CssBaseline />
       <ElevationScroll {...props}>
-        <AppBar style={{backgroundColor:"white",color:"black",height:""}}>
+        <AppBar style={{backgroundColor:"white",color:"black",height:"",cursor: "pointer"}}>
         <div className= {style.sale}>
            <Link to={"/product"} style={{textDecoration:"none"}}> <Typography component="div" className={style.Nav} style={{fontSize:"10px",marginTop:"10px",color:"red"}}>
              SALE | UPTO 65% off. <span style={{color:"black"}}>Shop Now <ArrowForwardIosIcon style={{fontSize:"10px"}}/></span>

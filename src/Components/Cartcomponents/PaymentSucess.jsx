@@ -40,7 +40,7 @@ export default function PaymentSucess(){
   const { v4: uuidv4 } = require('uuid');
   return (
     <div>
-      <Button variant="contained" className={styles.btnpayment} onClick={handleClickOpen}>
+      <Button variant="contained" style={{ background:"#fc6486",width:"100%"}} onClick={handleClickOpen}>
        PAY NOW
       </Button>
       <Dialog

@@ -50,7 +50,7 @@ export const Cart = () => {
           })}
         </div>
         <div className={styles.continue_shop}>
-           <p><MdArrowLeft/>Continue Shopping</p>
+           <p onClick={()=>{neviget("/product")}}><MdArrowLeft/>Continue Shopping</p>
            <p>Add more from wishlist</p>
          </div>
          </div>
