@@ -1,12 +1,12 @@
 .paymentcontainer {
-    padding: 3%;
+    
     width: 80%;
     margin: auto;
     margin-left: 15%;
 }
 
 .paymenttitleleft {
-    width: 50%;
+    width: 45%;
     float: left;
 
 }
@@ -88,7 +88,7 @@
 }
 
 .paymentcreditsection {
-    padding: 10px 15px;
+    padding: 10px ;
     height: 100%;
     width: 100%;
     box-sizing: border-box;

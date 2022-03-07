@@ -1,14 +1,15 @@
 import React from 'react'
 import Cartfooter from './Cartfooter'
 import styles from "./CartHeader.module.css"
+import {Link} from "react-router-dom"
 export const CartHeader = () => {
     return (
         <div className={styles.chkHeadmain}>
             <div className={styles.ulbagMain}>
-                <div className={styles.checkoutLogo}>
+                <Link to={`/`}><div className={styles.checkoutLogo}>
 
                     <img src='https://www.faballey.com/images/logo.png' />
-                </div>
+                </div></Link>
                 <div className={styles.shopingStep}>
                 <div className={styles.stepActive}>
                         <i class="fa fa-shopping-cart"style={{color:"#adadad"}} ></i>
@@ -24,7 +25,7 @@ export const CartHeader = () => {
                         Shipping
                     </div>
                     <div className={styles.paymentPink}>
-                        <i class="fa fa-credit-card" style={{color:"#fc6486"}}></i>
+                        <i class="fa fa-credit-card" ></i>
                         Payment
                     </div>
 
