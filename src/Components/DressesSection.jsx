@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 import Offerzone from "./Offerzone";
 import SmallCradScroll from "./smallCradScroll";
 import JustSun from "./JustSun";
-
+import {Link} from "react-router-dom"
 
 
 
@@ -42,7 +42,7 @@ export default function DressesSection() {
         >
           WHAT WE'RE CRUSHING ON
         </Typography>
-        <div className={style.cardContainer}>
+        <Link to={"/product"}><div className={style.cardContainer}>
           <img
             className={style.card}
             src="https://img.faballey.com/images/banner/55bc9323-4b3b-4bae-ab00-ef274db7df8e.jpg"
@@ -58,7 +58,7 @@ export default function DressesSection() {
             src="https://img.faballey.com/images/banner/5400c02c-4b46-4963-aaa7-5510ed07ae2c.jpg"
             alt=""
           />
-        </div>
+        </div></Link>
 
         <div className={style.YellowSection}>
           <Typography
