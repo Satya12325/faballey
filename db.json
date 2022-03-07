@@ -885,6 +885,16 @@
       "image": "https://img.faballey.com/images/Product/DRS04304Z/d3.jpg",
       "discount": 500,
       "quantity": 1
+    },
+    {
+      "id": "d11789bd-c093-4dac-8e0b-0e5b5d31dd59",
+      "productName": "Dusty Pink Embellished Neck Blouson Dress",
+      "price": 2200,
+      "sizes": "l",
+      "color": "pink",
+      "image": "https://img.faballey.com/images/Product/DRS04577Z/d3.jpg",
+      "discount": 1000,
+      "quantity": 1
     }
   ]
 }

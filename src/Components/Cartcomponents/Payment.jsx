@@ -6,7 +6,7 @@ import { useDispatch,useSelector } from 'react-redux'
 import { cartapi ,delete_api} from '../../Redux/Shopping_cart/cart.api';
 import {useNavigate} from "react-router-dom"
 import { useEffect } from 'react'
-
+import PaymentSucess from "./PaymentSucess"
 
 
 export const Payment = () => {
@@ -26,12 +26,12 @@ export const Payment = () => {
   
   },0)
 
-  const handlePay = ()=>{
+//   const handlePay = ()=>{
 
-    alert("payment sucessfully received")
-    dispatch(delete_api(cart.id))
-    neviget("/")
-  }
+//     alert("payment sucessfully received")
+//     dispatch(delete_api(cart.id))
+//     neviget("/")
+//   }
     return (
         <div>
             <CartHeader />
@@ -100,16 +100,17 @@ export const Payment = () => {
                             </div>
                         </div>
 
-                        <button type="submit" className={styles.btnpayment} 
+                        <PaymentSucess/>
+                        {/* <button type="submit" className={styles.btnpayment} 
                             onClick={handlePay}
                         >
                             Pay Now
-                        </button>
+                        </button> */}
                     </div>
 
                 </div>
                 {/* ------------------------------right section------------------------------------------- */}
-
+               
 
                 <div className={styles.productdetails}>
                     <h3>1 product(s) in Bag</h3>

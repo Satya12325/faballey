@@ -18,8 +18,8 @@ import { LoginModal } from '../Components/Login/Login'
 import {Link} from "react-router-dom";
 import { useEffect } from "react"
 import {useSelector,useDispatch,shallowEqual} from "react-redux";
-
 import {getProductRequest,getProduct} from "../Redux/Allproduct/action";
+import MenuIcon from '@mui/icons-material/Menu';
 
 
 
@@ -110,8 +110,14 @@ useEffect(() => {
   width:100%;
   display:flex;
   height: 20px;
-
+ 
   `
+  // const Menu = styles.div`
+  //  display:none;
+  //   @media screen and (max-width:550px){
+  //   display: block;
+  //   }
+  // `
 
 
 return (
@@ -145,14 +151,18 @@ return (
                 marginTop:1,
                 width:2.5,
                 height:15,
+               
               }
             }}
 
             badgeContent={no} showZero>
           <Link to={"/cart"}><WorkOutlineIcon/></Link>
         </Badge>
+       
             </div>
+            
             </div>
+            
           </div>
           <Toolbar>
             <BottomNav/>

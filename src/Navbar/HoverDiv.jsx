@@ -5,6 +5,11 @@ import Button from '@mui/material/Button';
 import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 import style from "./Navbar.module.css"
+import {Link} from "react-router-dom"
+import MenuIcon from '@mui/icons-material/Menu';
+
+
+
 
 const HtmlTooltip = styled(({ className, ...props }) => (
   <Tooltip {...props} classes={{ popper: className }} />
@@ -151,7 +156,7 @@ export default function HoverDiv(){
           </React.Fragment>
         }
       >
-        <div className={style.btn}>CLOTHING</div>
+        <div className={style.btn}><Link to={"/product"} style={{textDecoration:"none"}}>CLOTHING</Link></div>
       </Clothing>
 
       <Tops

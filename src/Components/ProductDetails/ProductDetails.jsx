@@ -151,7 +151,7 @@ export const ProductDetails = () => {
               refreshPage()
               return axios(config)
           }
-
+          
 
 
 
@@ -216,7 +216,9 @@ export const ProductDetails = () => {
   return (
     <>
     
-    < Navbar/>
+    < Navbar
+      no={0}
+    />
         <div className={styles.warpperleftright}>
        {/* <img src={data.image[0]} alt = ""/> */}
        <Left
