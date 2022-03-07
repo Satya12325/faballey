@@ -25,7 +25,7 @@ export const CartHeader = () => {
                         Shipping
                     </div>
                     <div className={styles.paymentPink}>
-                        <i class="fa fa-credit-card" style={{color:"#fc6486"}}></i>
+                        <i class="fa fa-credit-card" ></i>
                         Payment
                     </div>
 

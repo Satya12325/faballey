@@ -56,11 +56,11 @@ img {
     color: #adadad;
 }
 .pinkIcon{
-    color: #fc6486;
+    /* color: #fc6486; */
 }
 .paymentPink{
-    color: #fc6486;
-    border-bottom: 3px solid #fc6486;
+    /* color: #fc6486;
+    border-bottom: 3px solid #fc6486; */
 }
 .stepActive ~ div{
         color: #adadad;
