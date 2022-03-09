@@ -161,7 +161,7 @@ const currencies = [
           label="Select"
           value={currency}
           onChange={handleChange}
-          helperText="Please select your currency"
+          helperText="Please select your country"
         >
           {currencies.map((option) => (
             <MenuItem key={option.value} value={option.value}>

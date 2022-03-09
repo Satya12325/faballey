@@ -17,7 +17,12 @@
         "https://img.faballey.com/images/Product/DRS04473Z/d8.jpg"
       ],
       "discount": 900,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "pink",
       "gender": "female",
       "status": true
@@ -38,7 +43,12 @@
         "https://img.faballey.com/images/Product/DRS04759Z/d8.jpg"
       ],
       "discount": 400,
-      "sizes": "m",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "green",
       "gender": "female",
       "status": true
@@ -59,7 +69,12 @@
         "https://img.faballey.com/images/Product/DRS04633Z/d8.jpg"
       ],
       "discount": 200,
-      "sizes": "l",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "blue",
       "gender": "female",
       "status": true
@@ -80,7 +95,12 @@
         "https://img.faballey.com/images/Product/TOP04962Z/d8.jpg"
       ],
       "discount": 300,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "black",
       "gender": "female",
       "status": true
@@ -101,7 +121,12 @@
         "https://img.faballey.com/images/Product/DRS04304Z/d8.jpg"
       ],
       "discount": 500,
-      "sizes": "m",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "blue",
       "gender": "female",
       "status": true
@@ -122,7 +147,12 @@
         "https://img.faballey.com/images/Product/DRS04577Z/d8.jpg"
       ],
       "discount": 1000,
-      "sizes": "l",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "pink",
       "gender": "female",
       "status": true
@@ -143,7 +173,12 @@
         "https://img.faballey.com/images/Product/DRS04151Z/d8.jpg"
       ],
       "discount": 1100,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "blue",
       "gender": "female",
       "statues": true
@@ -164,7 +199,12 @@
         "https://img.faballey.com/images/Product/BOT00591Z/d8.jpg"
       ],
       "discount": 900,
-      "sizes": "l",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "blue",
       "gender": "female",
       "status": true
@@ -185,7 +225,12 @@
         "https://img.faballey.com/images/Product/TOP05266Z/d8.jpg"
       ],
       "discount": 400,
-      "sizes": "m",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "pink",
       "gender": "female",
       "status": true
@@ -206,7 +251,12 @@
         "https://img.faballey.com/images/Product/BOT00593A/d8.jpg"
       ],
       "discount": 600,
-      "sizes": "l",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "voilet",
       "gender": "female",
       "status": true
@@ -227,7 +277,12 @@
         "https://img.faballey.com/images/Product/DRS04632Z/d8.jpg"
       ],
       "discount": 600,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "pink",
       "gender": "female",
       "status": true
@@ -245,7 +300,12 @@
         "https://img.faballey.com/images/Product/TOP05524Z/d4.jpg"
       ],
       "discount": 700,
-      "sizes": "m",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "blue",
       "gender": "female",
       "status": true
@@ -263,7 +323,12 @@
         "https://img.faballey.com/images/Product/DRS04315Z/d4.jpg"
       ],
       "discount": 1100,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "peach",
       "gender": "female",
       "status": true
@@ -281,7 +346,12 @@
         "https://img.faballey.com/images/Product/DRS04652Z/d4.jpg"
       ],
       "discount": 900,
-      "sizes": "m",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "blue",
       "gender": "female",
       "status": true
@@ -299,7 +369,12 @@
         "https://img.faballey.com/images/Product/DRS04147Z/d4.jpg"
       ],
       "discount": 800,
-      "sizes": "l",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "pink",
       "gender": "female",
       "status": true
@@ -317,7 +392,12 @@
         "https://img.faballey.com/images/Product/FCO00144Z/d4.jpg"
       ],
       "discount": 700,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "blue",
       "gender": "female",
       "status": true
@@ -335,7 +415,12 @@
         "https://img.faballey.com/images/Product/FCO00150Z/d4.jpg"
       ],
       "discount": 700,
-      "sizes": "m",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "yellow",
       "gender": "female",
       "status": true
@@ -353,7 +438,12 @@
         "https://img.faballey.com/images/Product/FCO00151Z/d4.jpg"
       ],
       "discount": 700,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "green",
       "gender": "female"
     },
@@ -370,7 +460,12 @@
         "https://img.faballey.com/images/Product/TOP05393Z/d4.jpg"
       ],
       "discount": 700,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "green",
       "gender": "female"
     },
@@ -387,7 +482,12 @@
         "https://img.faballey.com/images/Product/DRS04420Z/d4.jpg"
       ],
       "discount": 900,
-      "sizes": "l",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "black",
       "gender": "female"
     },
@@ -404,7 +504,12 @@
         "https://img.faballey.com/images/Product/DRS04590Z/d4.jpg"
       ],
       "discount": 900,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "black",
       "gender": "female"
     },
@@ -421,7 +526,12 @@
         "https://img.faballey.com/images/Product/DRS04556Z/d4.jpg"
       ],
       "discount": 1050,
-      "sizes": "m",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "black",
       "gender": "female"
     },
@@ -438,7 +548,12 @@
         "https://img.faballey.com/images/Product/FCO00105Z/d4.jpg"
       ],
       "discount": 950,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "pink",
       "gender": "female"
     },
@@ -455,7 +570,12 @@
         "https://img.faballey.com/images/Product/FCO00145Z/d4.jpg"
       ],
       "discount": 100,
-      "sizes": "m",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "pink",
       "gender": "female"
     },
@@ -472,7 +592,12 @@
         "https://img.faballey.com/images/Product/DRS04354Z/d4.jpg"
       ],
       "discount": 1475,
-      "sizes": "l",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "pink",
       "gender": "female"
     },
@@ -489,7 +614,12 @@
         "https://img.faballey.com/images/Product/JAC00595Z/d4.jpg"
       ],
       "discount": 2600,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "pink",
       "gender": "female"
     },
@@ -506,7 +636,12 @@
         "https://img.faballey.com/images/Product/SHG00051Z/d4.jpg"
       ],
       "discount": 800,
-      "sizes": "m",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "pink",
       "gender": "female"
     },
@@ -523,7 +658,12 @@
         "https://img.faballey.com/images/Product/TOP05396Z/d4.jpg"
       ],
       "discount": 450,
-      "sizes": "l",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "pink",
       "gender": "female"
     },
@@ -540,7 +680,12 @@
         "https://img.faballey.com/images/Product/JAC00512Z/d4.jpg"
       ],
       "discount": 350,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "pink",
       "gender": "female"
     },
@@ -557,7 +702,12 @@
         "https://img.faballey.com/images/Product/TOP05527Z/d4.jpg"
       ],
       "discount": 600,
-      "sizes": "m",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "maroon",
       "gender": "female"
     },
@@ -574,7 +724,12 @@
         "https://img.faballey.com/images/Product/JAC00544Z/d4.jpg"
       ],
       "discount": 600,
-      "sizes": "l",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "maroon",
       "gender": "female"
     },
@@ -591,7 +746,12 @@
         "https://img.faballey.com/images/Product/TOP05296Z/d4.jpg"
       ],
       "discount": 900,
-      "sizes": "m",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "maroon",
       "gender": "female"
     },
@@ -608,7 +768,12 @@
         "https://img.faballey.com/images/Product/DRS04189Z/d4.jpg"
       ],
       "discount": 400,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "green",
       "gender": "female"
     },
@@ -625,7 +790,12 @@
         "https://img.faballey.com/images/Product/TOP05367Z/d4.jpg"
       ],
       "discount": 400,
-      "sizes": "m",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "green",
       "gender": "female"
     },
@@ -642,7 +812,12 @@
         "https://img.faballey.com/images/Product/JAC00515Z/d4.jpg"
       ],
       "discount": 900,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "green",
       "gender": "female"
     },
@@ -659,7 +834,12 @@
         "https://img.faballey.com/images/Product/SWT00115Z/d4.jpg"
       ],
       "discount": 900,
-      "sizes": "m",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "green",
       "gender": "female"
     },
@@ -676,7 +856,12 @@
         "https://img.faballey.com/images/Product/JAC00555Z/d4.jpg"
       ],
       "discount": 1400,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "green",
       "gender": "female"
     },
@@ -693,7 +878,12 @@
         "https://img.faballey.com/images/Product/TOP05523Z/d4.jpg"
       ],
       "discount": 700,
-      "sizes": "l",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "red",
       "gender": "female"
     },
@@ -710,7 +900,12 @@
         "https://img.faballey.com/images/Product/DRS04079Z/d4.jpg"
       ],
       "discount": 1100,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "red",
       "gender": "female"
     },
@@ -727,7 +922,12 @@
         "https://img.faballey.com/images/Product/DRS04175Z/d4.jpg"
       ],
       "discount": 975,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "red",
       "gender": "female"
     },
@@ -744,7 +944,12 @@
         "https://img.faballey.com/images/Product/DRS04202Z/d4.jpg"
       ],
       "discount": 975,
-      "sizes": "l",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "blue",
       "gender": "female"
     },
@@ -761,7 +966,12 @@
         "https://img.faballey.com/images/Product/DRS04417Z/d4.jpg"
       ],
       "discount": 1100,
-      "sizes": "s",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "blue",
       "gender": "female"
     },
@@ -778,7 +988,12 @@
         "https://img.faballey.com/images/Product/TOP03064Z/d4.jpg"
       ],
       "discount": 750,
-      "sizes": "m",
+      "sizes": [
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "blue",
       "gender": "female"
     },
@@ -795,7 +1010,13 @@
         "https://img.faballey.com/images/Product/TOP05399Z/d4.jpg"
       ],
       "discount": 700,
-      "sizes": "s",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "blue",
       "gender": "female"
     },
@@ -812,7 +1033,11 @@
         "https://img.faballey.com/images/Product/DRS04533Z/d4.jpg"
       ],
       "discount": 1050,
-      "sizes": "l",
+      "sizes": [
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "blue",
       "gender": "female"
     },
@@ -830,7 +1055,13 @@
         "https://img.faballey.com/images/Product/DRS03972Z/d5.jpg"
       ],
       "discount": 1050,
-      "sizes": "m",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "yellow",
       "gender": "female",
       "status": true
@@ -849,7 +1080,12 @@
         "https://img.faballey.com/images/Product/DRS01986Z/d5.jpg"
       ],
       "discount": 540,
-      "sizes": "l",
+      "sizes": [
+        "s",
+        "l",
+        "xl",
+        "xxl"
+      ],
       "color": "yellow",
       "gender": "female",
       "status": true
@@ -857,7 +1093,7 @@
   ],
   "cart": [
     {
-      "id": "eeaef810-397f-47e1-9c6a-4142c469414f",
+      "id": "71c22c97-d285-4cc9-8b12-1a6aefdd5335",
       "productName": "Green Back Cut Out Buttoned Jumpsuit",
       "price": 2300,
       "sizes": "m",

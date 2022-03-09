@@ -6,7 +6,8 @@ import {FaRegHeart} from 'react-icons/fa';
 import {FaPinterestP,FaTwitter,FaFacebookF} from 'react-icons/fa'
 import Tooltip from '@mui/material/Tooltip';
 import {TextField} from "@mui/material";
-
+import MenuItem from '@mui/material/MenuItem';
+import Select from '@mui/material/Select';
 
 export const Right = ({name,price,discount,size,handleCheck,handleAddCart,backColor}) => {
 const [description,setDescription] = useState(true)
@@ -61,7 +62,7 @@ const shippingf = () => {
 
 
               <div style={{marginTop:"20px"}}>
-              <Tooltip title="Body measurement:To fit Bust 34, waist 26" placement="top-start" arrow 
+              {/* <Tooltip title="Body measurement:To fit Bust 34, waist 26" placement="top-start" arrow 
               sx={{bgcolor:"white",color:"gray"}}>
               <button className={styles.sizes}>S</button>
               </Tooltip>
@@ -73,7 +74,20 @@ const shippingf = () => {
               </Tooltip>
               <Tooltip title="Body measurement:To fit Bust 40, waist 32" placement="top-start" arrow >
               <button className={styles.sizes}>XL</button>
-              </Tooltip>
+              </Tooltip> */}
+
+            {/* <Select
+              style={{background:"tomato"}}
+              labelId="demo-simple-select-filled-label"
+              id="demo-simple-select-filled"
+              value={sizes}
+              onChange={handleChange}
+              >
+
+
+            </Select> */}
+
+
 
                 </div>
 
