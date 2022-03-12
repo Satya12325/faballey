@@ -857,23 +857,13 @@
   ],
   "cart": [
     {
-      "id": "eeaef810-397f-47e1-9c6a-4142c469414f",
-      "productName": "Green Back Cut Out Buttoned Jumpsuit",
-      "price": 2300,
-      "sizes": "m",
-      "color": "green",
-      "image": "https://img.faballey.com/images/Product/DRS04759Z/d3.jpg",
-      "discount": 400,
-      "quantity": 1
-    },
-    {
-      "id": "f6f5cac5-8182-457f-ab65-16ea4792caf2",
-      "productName": "Dusty Pink Embellished Neck Blouson Dress",
-      "price": 2200,
+      "id": "53615643-b0ce-4166-b128-afcd5c8e3367",
+      "productName": "Red Round Neck Puff Sleeves Top",
+      "price": 1400,
       "sizes": "l",
-      "color": "pink",
-      "image": "https://img.faballey.com/images/Product/DRS04577Z/d3.jpg",
-      "discount": 1000,
+      "color": "red",
+      "image": "https://img.faballey.com/images/Product/TOP05523Z/d3.jpg",
+      "discount": 700,
       "quantity": 1
     }
   ]
