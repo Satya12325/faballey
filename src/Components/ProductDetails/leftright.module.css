@@ -153,11 +153,12 @@ padding:15px
 
 .bagbutton{
     color:white;
-    background-color: #fc6486;
+    cursor: pointer;
     height:50px;
     width:53%;
     border:1px solid white;
 }
+
 .wishlistbutton{
     background-color: white;
     border:1px solid rgb(131, 131, 131,0.3);

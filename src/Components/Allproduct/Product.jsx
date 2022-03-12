@@ -91,15 +91,23 @@ useEffect(() => {
         const sizeadjust =(e)=>{
             const option=e.target.value;
             if(option == "l"){
-                const updatelist = data.filter((ev)=>ev.sizes===option )
+                const updatelist = data.filter((ev)=>ev.size===option )
                 setState(updatelist)
             }
             if(option == "m"){
-                const updatelist = data.filter((ev)=>ev.sizes===option )
+                const updatelist = data.filter((ev)=>ev.size===option )
                 setState(updatelist)
             }
             if(option == "s"){
-                const updatelist = data.filter((ev)=>ev.sizes===option )
+                const updatelist = data.filter((ev)=>ev.size===option )
+                setState(updatelist)
+            }
+            if(option == "xl"){
+                const updatelist = data.filter((ev)=>ev.size===option )
+                setState(updatelist)
+            }
+            if(option == "xxl"){
+                const updatelist = data.filter((ev)=>ev.size===option )
                 setState(updatelist)
             }
 
@@ -251,6 +259,8 @@ useEffect(() => {
                    <option value="m">M</option>
                    <option value="s">S</option>
                    <option value="l">L</option>
+                   <option value="xl">XL</option>
+                   <option value="xxl">XXL</option>
                 </select>
                <select className={styles.forcolorsfilter}onChange={colorsAll}>
                    <option value="all"> Colour</option>

@@ -56,7 +56,7 @@ function ElevationScroll(props) {
 
 
 
-export default function Navbar(props){
+  export default function Navbar(props) {
   const [display,setDisplay]=useState("block")
   const[Height,setHeight] = useState("150px")
 
@@ -142,7 +142,7 @@ return (
             <div className={style.Right}>Gift Card</div>
             <div className={style.Right}><LoginModal name={"Login"}/></div>
             <div className={style.Right}><LoginModal name={"Sign up"}/></div>
-            <div>
+            <Link to={"/cart"}> <div>
             <Badge color="secondary" 
             sx={{
               "& .MuiBadge-badge": {
@@ -156,10 +156,10 @@ return (
             }}
 
             badgeContent={no} showZero>
-          <Link to={"/cart"}><WorkOutlineIcon/></Link>
+          <WorkOutlineIcon/>
         </Badge>
        
-            </div>
+            </div></Link>
             
             </div>
             

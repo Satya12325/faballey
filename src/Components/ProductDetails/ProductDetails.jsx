@@ -67,7 +67,7 @@ export const ProductDetails = () => {
   const [image, setImage] = useState("");
   const [discount, setDiscount] = useState();
   const [qty, setQty] = useState();
-  const [background, setBackground] = useState("tomato");
+  const [background, setBackground] = useState("#fc6486");
   // const id = useSelector((state) => state.app.id);
   const dispatch = useDispatch();
   const history = useNavigate();
@@ -77,7 +77,7 @@ export const ProductDetails = () => {
   const [details, setDetails] = useState(false);
   const [shipping, setShipping] = useState(false);
   const [pin, setPin] = useState("");
-
+  const [process, setProcess] = useState(false);
   const descriptionf = () => {
     setDescription(true);
     setDetails(false);
@@ -150,24 +150,30 @@ export const ProductDetails = () => {
   }
 
   const handleAddCart = () => {
-    setBackground("green");
-    const payload = {
-      id: uuid(),
-      productName: name,
-      price: price,
-      sizes: sizepick,
-      color: color,
-      image: image,
-      discount: discount,
-      quantity: qty,
-    };
-    const config = {
-      url: "http://localhost:3000/cart",
-      method: "POST",
-      data: payload,
-    };
-    refreshPage();
-    return axios(config);
+    if(process === true){
+
+      setBackground("green");
+      const payload = {
+        id: uuid(),
+        productName: name,
+        price: price,
+        sizes: sizepick,
+        color: color,
+        image: image,
+        discount: discount,
+        quantity: qty,
+      };
+      const config = {
+        url: "http://localhost:3000/cart",
+        method: "POST",
+        data: payload,
+      };
+      // refreshPage();
+      return axios(config);
+    }
+    else{
+      return false;
+    }
   };
 
   useEffect(() => {
@@ -213,19 +219,21 @@ export const ProductDetails = () => {
   //     })
   // },[id]);
   let pins = ["756036", "756001", "756032"];
-  const hanleChack = (pin) => {
-    console.log("pin", pin);
-    for (let i = 0; i < pin.length; i++) {
+  const hanleChack = () => {
+    console.log("pin", pins);
+    for (let i = 0; i < pins.length; i++) {
       if (pins[i] === pin) {
         alert("you pin is Deleverable");
+        setProcess(true)
       }
+     
     }
   };
 
   if (isLoding) return <h3>...Loading</h3>;
   return (
     <>
-      <Navbar no={0} />
+      <Navbar />
       <div  className={styles.warpperleftright}>
         {/* <img src={data.image[0]} alt = ""/> */}
         <Left
@@ -330,7 +338,7 @@ export const ProductDetails = () => {
               <div className={styles.bagbuttonsdiv}>
                 <button
                   className={styles.bagbutton}
-                  style={{ backgroundColor: "" }}
+                  style={{ backgroundColor: background, }}
                   onClick={handleAddCart}
                 >
                   ADD TO BAG

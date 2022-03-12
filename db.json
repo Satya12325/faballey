@@ -16,6 +16,7 @@
         "https://img.faballey.com/images/Product/DRS04473Z/d7.jpg",
         "https://img.faballey.com/images/Product/DRS04473Z/d8.jpg"
       ],
+      "size": "m",
       "discount": 900,
       "sizes": [
         "m",
@@ -42,6 +43,7 @@
         "https://img.faballey.com/images/Product/DRS04759Z/d7.jpg",
         "https://img.faballey.com/images/Product/DRS04759Z/d8.jpg"
       ],
+      "size": "m",
       "discount": 400,
       "sizes": [
         "m",
@@ -68,6 +70,7 @@
         "https://img.faballey.com/images/Product/DRS04633Z/d6.jpg",
         "https://img.faballey.com/images/Product/DRS04633Z/d8.jpg"
       ],
+      "size": "l",
       "discount": 200,
       "sizes": [
         "m",
@@ -94,6 +97,7 @@
         "https://img.faballey.com/images/Product/TOP04962Z/d7.jpg",
         "https://img.faballey.com/images/Product/TOP04962Z/d8.jpg"
       ],
+      "size": "l",
       "discount": 300,
       "sizes": [
         "m",
@@ -120,6 +124,7 @@
         "https://img.faballey.com/images/Product/DRS04304Z/d7.jpg",
         "https://img.faballey.com/images/Product/DRS04304Z/d8.jpg"
       ],
+      "size": "l",
       "discount": 500,
       "sizes": [
         "m",
@@ -146,6 +151,7 @@
         "https://img.faballey.com/images/Product/DRS04577Z/d7.jpg",
         "https://img.faballey.com/images/Product/DRS04577Z/d8.jpg"
       ],
+      "size": "s",
       "discount": 1000,
       "sizes": [
         "m",
@@ -172,6 +178,7 @@
         "https://img.faballey.com/images/Product/DRS04151Z/d7.jpg",
         "https://img.faballey.com/images/Product/DRS04151Z/d8.jpg"
       ],
+      "size": "s",
       "discount": 1100,
       "sizes": [
         "m",
@@ -198,6 +205,7 @@
         "https://img.faballey.com/images/Product/BOT00591Z/d7.jpg",
         "https://img.faballey.com/images/Product/BOT00591Z/d8.jpg"
       ],
+      "size": "s",
       "discount": 900,
       "sizes": [
         "m",
@@ -224,6 +232,7 @@
         "https://img.faballey.com/images/Product/TOP05266Z/d6.jpg",
         "https://img.faballey.com/images/Product/TOP05266Z/d8.jpg"
       ],
+      "size": "s",
       "discount": 400,
       "sizes": [
         "m",
@@ -250,6 +259,7 @@
         "https://img.faballey.com/images/Product/BOT00593A/d7.jpg",
         "https://img.faballey.com/images/Product/BOT00593A/d8.jpg"
       ],
+      "size": "xl",
       "discount": 600,
       "sizes": [
         "m",
@@ -276,6 +286,7 @@
         "https://img.faballey.com/images/Product/DRS04632Z/d7.jpg",
         "https://img.faballey.com/images/Product/DRS04632Z/d8.jpg"
       ],
+      "size": "xl",
       "discount": 600,
       "sizes": [
         "m",
@@ -299,6 +310,7 @@
         "https://img.faballey.com/images/Product/TOP05524Z/d3.jpg",
         "https://img.faballey.com/images/Product/TOP05524Z/d4.jpg"
       ],
+      "size": "xl",
       "discount": 700,
       "sizes": [
         "m",
@@ -322,6 +334,7 @@
         "https://img.faballey.com/images/Product/DRS04315Z/d3.jpg",
         "https://img.faballey.com/images/Product/DRS04315Z/d4.jpg"
       ],
+      "size": "xl",
       "discount": 1100,
       "sizes": [
         "m",
@@ -345,6 +358,7 @@
         "https://img.faballey.com/images/Product/DRS04652Z/d3.jpg",
         "https://img.faballey.com/images/Product/DRS04652Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 900,
       "sizes": [
         "m",
@@ -368,6 +382,7 @@
         "https://img.faballey.com/images/Product/DRS04147Z/d3.jpg",
         "https://img.faballey.com/images/Product/DRS04147Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 800,
       "sizes": [
         "m",
@@ -391,6 +406,7 @@
         "https://img.faballey.com/images/Product/FCO00144Z/d3.jpg",
         "https://img.faballey.com/images/Product/FCO00144Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 700,
       "sizes": [
         "m",
@@ -414,6 +430,7 @@
         "https://img.faballey.com/images/Product/FCO00150Z/d3.jpg",
         "https://img.faballey.com/images/Product/FCO00150Z/d4.jpg"
       ],
+      "size": "xxl",
       "discount": 700,
       "sizes": [
         "m",
@@ -437,6 +454,7 @@
         "https://img.faballey.com/images/Product/FCO00151Z/d3.jpg",
         "https://img.faballey.com/images/Product/FCO00151Z/d4.jpg"
       ],
+      "size": "xxl",
       "discount": 700,
       "sizes": [
         "m",
@@ -459,6 +477,7 @@
         "https://img.faballey.com/images/Product/TOP05393Z/d3.jpg",
         "https://img.faballey.com/images/Product/TOP05393Z/d4.jpg"
       ],
+      "size": "xxl",
       "discount": 700,
       "sizes": [
         "m",
@@ -481,6 +500,7 @@
         "https://img.faballey.com/images/Product/DRS04420Z/d3.jpg",
         "https://img.faballey.com/images/Product/DRS04420Z/d4.jpg"
       ],
+      "size": "xxl",
       "discount": 900,
       "sizes": [
         "m",
@@ -503,6 +523,7 @@
         "https://img.faballey.com/images/Product/DRS04590Z/d3.jpg",
         "https://img.faballey.com/images/Product/DRS04590Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 900,
       "sizes": [
         "m",
@@ -525,6 +546,7 @@
         "https://img.faballey.com/images/Product/DRS04556Z/d3.jpg",
         "https://img.faballey.com/images/Product/DRS04556Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 1050,
       "sizes": [
         "m",
@@ -547,6 +569,7 @@
         "https://img.faballey.com/images/Product/FCO00105Z/d3.jpg",
         "https://img.faballey.com/images/Product/FCO00105Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 950,
       "sizes": [
         "m",
@@ -569,6 +592,7 @@
         "https://img.faballey.com/images/Product/FCO00145Z/d3.jpg",
         "https://img.faballey.com/images/Product/FCO00145Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 100,
       "sizes": [
         "m",
@@ -591,6 +615,7 @@
         "https://img.faballey.com/images/Product/DRS04354Z/d3.jpg",
         "https://img.faballey.com/images/Product/DRS04354Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 1475,
       "sizes": [
         "m",
@@ -613,6 +638,7 @@
         "https://img.faballey.com/images/Product/JAC00595Z/d3.jpg",
         "https://img.faballey.com/images/Product/JAC00595Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 2600,
       "sizes": [
         "m",
@@ -635,6 +661,7 @@
         "https://img.faballey.com/images/Product/SHG00051Z/d3.jpg",
         "https://img.faballey.com/images/Product/SHG00051Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 800,
       "sizes": [
         "m",
@@ -657,6 +684,7 @@
         "https://img.faballey.com/images/Product/TOP05396Z/d3.jpg",
         "https://img.faballey.com/images/Product/TOP05396Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 450,
       "sizes": [
         "m",
@@ -679,6 +707,7 @@
         "https://img.faballey.com/images/Product/JAC00512Z/d3.jpg",
         "https://img.faballey.com/images/Product/JAC00512Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 350,
       "sizes": [
         "m",
@@ -701,6 +730,7 @@
         "https://img.faballey.com/images/Product/TOP05527Z/d3.jpg",
         "https://img.faballey.com/images/Product/TOP05527Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 600,
       "sizes": [
         "m",
@@ -723,6 +753,7 @@
         "https://img.faballey.com/images/Product/JAC00544Z/d3.jpg",
         "https://img.faballey.com/images/Product/JAC00544Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 600,
       "sizes": [
         "m",
@@ -745,6 +776,7 @@
         "https://img.faballey.com/images/Product/TOP05296Z/d3.jpg",
         "https://img.faballey.com/images/Product/TOP05296Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 900,
       "sizes": [
         "m",
@@ -767,6 +799,7 @@
         "https://img.faballey.com/images/Product/DRS04189Z/d3.jpg",
         "https://img.faballey.com/images/Product/DRS04189Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 400,
       "sizes": [
         "m",
@@ -789,6 +822,7 @@
         "https://img.faballey.com/images/Product/TOP05367Z/d3.jpg",
         "https://img.faballey.com/images/Product/TOP05367Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 400,
       "sizes": [
         "m",
@@ -811,6 +845,7 @@
         "https://img.faballey.com/images/Product/JAC00515Z/d3.jpg",
         "https://img.faballey.com/images/Product/JAC00515Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 900,
       "sizes": [
         "m",
@@ -833,6 +868,7 @@
         "https://img.faballey.com/images/Product/SWT00115Z/d3.jpg",
         "https://img.faballey.com/images/Product/SWT00115Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 900,
       "sizes": [
         "m",
@@ -855,6 +891,7 @@
         "https://img.faballey.com/images/Product/JAC00555Z/d3.jpg",
         "https://img.faballey.com/images/Product/JAC00555Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 1400,
       "sizes": [
         "m",
@@ -877,6 +914,7 @@
         "https://img.faballey.com/images/Product/TOP05523Z/d3.jpg",
         "https://img.faballey.com/images/Product/TOP05523Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 700,
       "sizes": [
         "m",
@@ -899,6 +937,7 @@
         "https://img.faballey.com/images/Product/DRS04079Z/d3.jpg",
         "https://img.faballey.com/images/Product/DRS04079Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 1100,
       "sizes": [
         "m",
@@ -921,6 +960,7 @@
         "https://img.faballey.com/images/Product/DRS04175Z/d3.jpg",
         "https://img.faballey.com/images/Product/DRS04175Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 975,
       "sizes": [
         "m",
@@ -943,6 +983,7 @@
         "https://img.faballey.com/images/Product/DRS04202Z/d3.jpg",
         "https://img.faballey.com/images/Product/DRS04202Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 975,
       "sizes": [
         "m",
@@ -965,6 +1006,7 @@
         "https://img.faballey.com/images/Product/DRS04417Z/d3.jpg",
         "https://img.faballey.com/images/Product/DRS04417Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 1100,
       "sizes": [
         "m",
@@ -987,6 +1029,7 @@
         "https://img.faballey.com/images/Product/TOP03064Z/d3.jpg",
         "https://img.faballey.com/images/Product/TOP03064Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 750,
       "sizes": [
         "m",
@@ -1009,6 +1052,7 @@
         "https://img.faballey.com/images/Product/TOP05399Z/d3.jpg",
         "https://img.faballey.com/images/Product/TOP05399Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 700,
       "sizes": [
         "s",
@@ -1032,6 +1076,7 @@
         "https://img.faballey.com/images/Product/DRS04533Z/d3.jpg",
         "https://img.faballey.com/images/Product/DRS04533Z/d4.jpg"
       ],
+      "size": "m",
       "discount": 1050,
       "sizes": [
         "l",
@@ -1054,6 +1099,7 @@
         "https://img.faballey.com/images/Product/DRS03972Z/d4.jpg",
         "https://img.faballey.com/images/Product/DRS03972Z/d5.jpg"
       ],
+      "size": "m",
       "discount": 1050,
       "sizes": [
         "s",
@@ -1079,6 +1125,7 @@
         "https://img.faballey.com/images/Product/DRS01986Z/d4.jpg",
         "https://img.faballey.com/images/Product/DRS01986Z/d5.jpg"
       ],
+      "size": "m",
       "discount": 540,
       "sizes": [
         "s",
@@ -1093,13 +1140,13 @@
   ],
   "cart": [
     {
-      "id": "71c22c97-d285-4cc9-8b12-1a6aefdd5335",
-      "productName": "Green Back Cut Out Buttoned Jumpsuit",
-      "price": 2300,
+      "id": "540be3a2-1f44-45f9-ade5-c58e86d2ad76",
+      "productName": "Lilac Halter Ruffled Mini Dress",
+      "price": 2200,
       "sizes": "m",
-      "color": "green",
-      "image": "https://img.faballey.com/images/Product/DRS04759Z/d3.jpg",
-      "discount": 400,
+      "color": "blue",
+      "image": "https://img.faballey.com/images/Product/DRS04304Z/d3.jpg",
+      "discount": 500,
       "quantity": 1
     }
   ]
