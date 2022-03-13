@@ -252,8 +252,8 @@ useEffect(() => {
 
 
 
-        <div style={{flex:"3"}}>
-         <div className={styles.below2ndnavbardiv} >
+    <div className={styles.filtroContainer}>
+        <div className={styles.below2ndnavbardiv} >
                 <select className={styles.forsizefilter} onChange={sizeadjust}>
                    <option value="size">Size</option>
                    <option value="m">M</option>
@@ -322,10 +322,10 @@ useEffect(() => {
 
                </select>
 
-             <div className={styles.forsortinglowtohighdiv}>
-                 <div><span> CLOTHING </span> <span className="for-line-color">|</span> <span> 1655 STYLES FOUND </span> <span >|</span>  <span> VIEW 201 </span></div>
+                 <div className={styles.forsortinglowtohighdiv}>
+                 <div className={styles.view}><span> CLOTHING </span> <span className="for-line-color">|</span> <span> 1655 STYLES FOUND </span> <span >|</span>  <span> VIEW 201 </span></div>
 
-                <span className={styles.rightsortby}>
+                    <span className={styles.rightsortby}>
                     SORTBY :
                     <select onChange={handleHightoLow}>
                        <option value="newandpopular">New and Popular</option>
@@ -333,7 +333,7 @@ useEffect(() => {
                        <option value="hightolow">High To Low</option>
                     </select>
                     </span>
-             </div>
+                </div>
 
          </div>
 
