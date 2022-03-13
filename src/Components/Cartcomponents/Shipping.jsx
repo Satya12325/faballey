@@ -25,7 +25,7 @@ function MediaControlCard({image, title,quantity,price}) {
 
     return (
         <Box style={{background: "white",padding:"10px"}}>
-      <Box sx={{ display: 'flex', width:"350px",height: "100px"}}>
+      <Box sx={{ display: 'flex', maxWidth:"350px",height: "100px"}}>
            <CardMedia
           component="img"
           sx={{ width: "80px",height:"80px" ,}}
@@ -131,6 +131,7 @@ const currencies = [
           Where do you want us to deliver?
         </Typography>
          <Box
+         className={style.boxes}
       component="form"
       sx={{
         '& > :not(style)': { m: 1, width: '25ch' },
@@ -173,8 +174,8 @@ const currencies = [
             Address
             <TextareaAutosize
       aria-label="empty textarea"
-      
-      style={{ width: "600px",height: "200px" }}
+      className={style.textarea}
+      // style={{ maxWidth: "600px",height: "200px" }}
     />
     </div>
     <TextField style={{width:"300px"}} id="outlined-basic" label="Citey" variant="outlined" />

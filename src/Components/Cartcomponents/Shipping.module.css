@@ -25,3 +25,20 @@
     margin: 5px;
     border-bottom:1px solid #D6D6D6;
 }
+.textarea{
+   width: 610px;
+   height: 200px !important
+}
+
+@media screen and (max-width:1000px){
+    .textarea{
+        width: 310px;
+        height: 200px !important
+     }
+     .Rightdiv{
+         width: 100%;
+     }
+     .boxes{
+         border: none !important;
+     }
+}
