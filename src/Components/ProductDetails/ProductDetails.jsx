@@ -236,16 +236,17 @@ export const ProductDetails = () => {
       <Navbar />
       <div  className={styles.warpperleftright}>
         {/* <img src={data.image[0]} alt = ""/> */}
-        <Left
-          image={data.image[1]}
-          image2={data.image[0]}
-          //  price={data.price}
-          //  discount={data.discount}
-          //  name={data.productName}
-          //  handleCheck={hanleChack}
-          //  handleAddCart={handleAddCart}
-          //  backColor={background}
-        />
+        <div className={styles.mainDiv}>
+          <Left
+            image={data.image[1]}
+            image2={data.image[0]}
+            //  price={data.price}
+            //  discount={data.discount}
+            //  name={data.productName}
+            //  handleCheck={hanleChack}
+            //  handleAddCart={handleAddCart}
+            //  backColor={background}
+          />
         <div>
           <div className={styles.wrapper}>
             <div>
@@ -514,7 +515,7 @@ export const ProductDetails = () => {
             </div>
           </div>
         </div>
-        <div></div>
+        </div>
         <Slidingimgs />
         <Slidingimgs2 />
         <Lastbuttons />
