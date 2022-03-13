@@ -1,9 +1,12 @@
 .wrapperleftright{
-    display:grid;
-    grid-template-columns: 65% 35%;
-    /* border:1px solid black;
+    /* display:grid;
+    grid-template-columns: 65% 35%; */
+    /* 
    /* display: flex; */
-  
+   width:100%;
+   margin: auto;
+   display: flex;
+   border:1px solid black;
 }
 .image{
     /* height:492px;
@@ -31,6 +34,11 @@
    margin-top: 100px;
 }
 
+/* Again css */
+.mainDiv{
+    display: flex;
+    margin-top: 100px;
+}
 
 
 /* rest of eliment css */
@@ -39,8 +47,9 @@
     /* border:1px solid black; */
     box-sizing: border-box;
     padding:15px;
-   width: 30%;
+   width: 100%;
    padding-left:25px;
+   
   
 }
 .size{
@@ -199,5 +208,8 @@ margin-bottom: 20px;
 @media screen and (max-width:700px){
     .sizes{
         margin-top: 2%;
+    }
+    .mainDiv{
+        flex-direction: column;
     }
 }
