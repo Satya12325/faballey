@@ -27,7 +27,7 @@ export const CartList = ({item}) => {
            </div>
             
             <div className={styles.left_box2}>
-              <p>{` Size: ${(sizes[0]).toUpperCase()}`}</p>
+              <p style={{textTransform: "uppercase"}}>{` Size: ${(sizes[0])}`}</p>
               <p>{`Qty: ${quantity}`}</p>
               <p>{`Color: ${color}`}</p>
             </div>

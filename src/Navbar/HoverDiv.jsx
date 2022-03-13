@@ -156,7 +156,7 @@ export default function HoverDiv(){
           </React.Fragment>
         }
       >
-        <div className={style.btn}><Link to={"/product"} style={{textDecoration:"none"}}>CLOTHING</Link></div>
+        <div className={style.btn}><Link to={"/product"} style={{textDecoration:"none",color:"black"}}>CLOTHING</Link></div>
       </Clothing>
 
       <Tops

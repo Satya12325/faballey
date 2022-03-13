@@ -24,7 +24,7 @@ export const Left = ({image,price,size,discount,name,image2,handleCheck,handleAd
       
         </div>
         <div>
-        <Right
+        {/* <Right
         price={price}
         size={size}
         discount={discount}
@@ -33,7 +33,7 @@ export const Left = ({image,price,size,discount,name,image2,handleCheck,handleAd
         handleAddCart={handleAddCart}
         backColor={backColor}
         />
-        
+         */}
         </div>
         
     </div>
