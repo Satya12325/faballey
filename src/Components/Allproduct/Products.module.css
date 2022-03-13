@@ -52,7 +52,7 @@
 
 .particularproduct {
     color: #323232;
-    width: 30%;
+    width: 250px;
     height: 420px;
     /* border: 1px solid red; */
     margin: 1%;
@@ -149,13 +149,15 @@
     padding-left: 29%;
     display: grid;
     align-content: center;
-    margin-top: 7%;
+    margin-top: 8%;
     font-weight: 500 !important
 }
 
 .below2ndnavbardiv {
     /* border:1px solid black ;   */
     text-align: left;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .below2ndnavbardiv>select {
@@ -212,4 +214,34 @@
 .rightsortby>select>option {
     cursor: pointer;
     width: 150px;
+}
+/* .filtroContainer{
+   flex:3;
+} */
+.forsizefilter{
+    max-width: 200px;
+}
+
+@media screen and (max-width:1000px){
+  .sidebar{
+      display: none;
+  }
+  .filtroContainer{
+   display: flex;
+   flex-direction: column;
+}
+.belowcolms3div {
+    padding-left: 5%;
+}
+.view{
+    visibility: hidden;
+}
+.below2ndnavbardiv {
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+.particularproduct{
+    margin:auto
+}
 }
