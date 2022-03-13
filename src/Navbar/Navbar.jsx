@@ -21,6 +21,7 @@ import {useSelector,useDispatch,shallowEqual} from "react-redux";
 import {getProductRequest,getProduct} from "../Redux/Allproduct/action";
 import MenuIcon from '@mui/icons-material/Menu';
 
+import {logoutApi} from "../Redux/Auth/loginApi"
 
 
 
@@ -141,7 +142,7 @@ return (
             <div className={style.Right}>Track Order</div>
             <div className={style.Right}>Gift Card</div>
             <div className={style.Right}><LoginModal name={"Login"}/></div>
-            <div className={style.Right}><LoginModal name={"Sign up"}/></div>
+            <div className={style.Right} onClick={()=>{dispatch(logoutApi())}}>Log Out</div>
             <Link to={"/cart"}> <div>
             <Badge color="secondary" 
             sx={{

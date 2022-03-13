@@ -77,3 +77,9 @@ img {
     line-height: 30px;
     margin-top: 15px;
 }
+@media only screen and (max-width : 600px) {
+    .shopingStep{
+        display: none;
+    }
+    
+}
