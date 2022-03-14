@@ -1140,13 +1140,6 @@
   ],
   "cart": [
     {
-      "id": "53615643-b0ce-4166-b128-afcd5c8e3367",
-      "productName": "Red Round Neck Puff Sleeves Top",
-      "price": 1400,
-      "sizes": "l",
-      "color": "red",
-      "image": "https://img.faballey.com/images/Product/TOP05523Z/d3.jpg",
-      "discount": 700,
       "id": "540be3a2-1f44-45f9-ade5-c58e86d2ad76",
       "productName": "Lilac Halter Ruffled Mini Dress",
       "price": 2200,
@@ -1154,6 +1147,16 @@
       "color": "blue",
       "image": "https://img.faballey.com/images/Product/DRS04304Z/d3.jpg",
       "discount": 500,
+      "quantity": 1
+    },
+    {
+      "id": "fc6975ef-dfd0-4c90-a007-92ad29183dc1",
+      "productName": "Red Round Neck Puff Sleeves Top",
+      "price": 1400,
+      "sizes": "xxl",
+      "color": "red",
+      "image": "https://img.faballey.com/images/Product/TOP05523Z/d3.jpg",
+      "discount": 700,
       "quantity": 1
     }
   ]
