@@ -124,7 +124,7 @@
 
 .cardyearitem,.cardmonthitem,.cardcvvitem {
     height: 5%;
-    width: 5%;
+    width: 7vh;
     margin-right: 10%;
 }
 
@@ -325,8 +325,28 @@
     margin-top: 10px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1220px) {
-    .contactmain {
-        width: 95%;
+@media only screen and (max-width: 700px) {
+    .paymentcontainer {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+       
+    }
+    .paymenttitleleft{
+        width: 100%;
+    }
+    .productdetails{
+        width: 100%;
+        margin: 0;
+    }
+    .bagftsecure{
+        width: 100%;
+        margin: 0;
+       
+    }
+    .bagftsecure >img{
+        width: 80%;
+       
     }
 }
