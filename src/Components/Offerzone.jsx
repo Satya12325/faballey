@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Carousel from "react-elastic-carousel";
 import {useSelector,useDispatch,shallowEqual} from "react-redux";
-
+import {Link} from "react-router-dom"
 import {useEffect} from "react";
 import {getProductRequest,getProduct} from "../Redux/Allproduct/action";
 
@@ -20,13 +20,13 @@ function MediaControlCard({image,productName,price,discount}) {
   
   
     return (
-        <div style={{fontSize: "13px",textAlign:"start",fontWeight:"bold",margin:"10px"}}>
+         <Link to={"/cart"}><div style={{fontSize: "13px",textAlign:"start",fontWeight:"bold",margin:"10px"}}>
             <img style={{width: "100%", height: "300px"}} src={image} alt=""/>
             <div >{productName}</div>
             <div style={{color:"red"}}>
            ₹ {price}             
             </div>
-      </div>
+      </div></Link>
     );
   }
 

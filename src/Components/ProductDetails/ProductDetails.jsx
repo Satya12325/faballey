@@ -168,10 +168,11 @@ export const ProductDetails = () => {
         method: "POST",
         data: payload,
       };
-      // refreshPage();
+      refreshPage();
       return axios(config);
     }
     else{
+      alert("please provide your Postal index number...")
       return false;
     }
   };
@@ -221,13 +222,13 @@ export const ProductDetails = () => {
   let pins = ["756036", "756001", "756032"];
   const hanleChack = () => {
     console.log("pin", pins);
-    for (let i = 0; i < pins.length; i++) {
-      if (pins[i] === pin) {
+    
+      if ( pin) {
         alert("you pin is Deleverable");
         setProcess(true)
       }
      
-    }
+    
   };
 
   if (isLoding) return <h3>...Loading</h3>;
