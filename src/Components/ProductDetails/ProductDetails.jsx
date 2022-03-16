@@ -168,12 +168,13 @@ export const ProductDetails = () => {
         method: "POST",
         data: payload,
       };
-      refreshPage();
-      return axios(config);
+     
+      return axios(config),refreshPage();
+      
     }
     else{
       alert("please provide your Postal index number...")
-      return false;
+       return false;
     }
   };
 
