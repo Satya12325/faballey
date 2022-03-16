@@ -1139,25 +1139,6 @@
     }
   ],
   "cart": [
-    {
-      "id": "8b6a40ee-56f0-457f-b5ff-dd351b0cda08",
-      "productName": "Green Back Cut Out Buttoned Jumpsuit",
-      "price": 2300,
-      "sizes": "m",
-      "color": "green",
-      "image": "https://img.faballey.com/images/Product/DRS04759Z/d3.jpg",
-      "discount": 400,
-      "quantity": 1
-    },
-    {
-      "id": "19b42e9c-8a0b-4ac8-a68e-c949c7fb4c44",
-      "productName": "Green Back Cut Out Buttoned Jumpsuit",
-      "price": 2300,
-      "sizes": "l",
-      "color": "green",
-      "image": "https://img.faballey.com/images/Product/DRS04759Z/d3.jpg",
-      "discount": 400,
-      "quantity": 1
-    }
+    
   ]
 }
