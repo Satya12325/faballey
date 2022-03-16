@@ -60,7 +60,7 @@ export default function Offerzone(){
     const getProducts = ()=>{
         const requestAction = getProductRequest();
         dispatch(requestAction);
-        return fetch(`http://localhost:3000/cart`)
+        return fetch(`https://fabaly-json-api.herokuapp.com/cart`)
         .then((response) => response.json())
         .then((response) => {
             console.log(response)

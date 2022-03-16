@@ -33,7 +33,7 @@ const [state,setState] =useState([])
 const getProducts = ()=>{
     const requestAction = getProductRequest();
     dispatch(requestAction);
-    return fetch(`http://localhost:3000/products`)
+    return fetch(`https://fabaly-json-api.herokuapp.com/products`)
     .then((response) => response.json())
     .then((response) => {
         console.log(response)

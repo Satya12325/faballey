@@ -3,7 +3,7 @@ import axios from "axios";
 export const cartapi = (params)=>(dispatch)=>{
     dispatch(get_cart_request())
     axios
-    .get("http://localhost:3000/cart")
+    .get("https://fabaly-json-api.herokuapp.com/cart")
     .then((res)=>{
         console.log(res.data)
         dispatch(get_cart_success(res.data))
@@ -19,7 +19,7 @@ export const delete_api = (id)=>(dispatch)=>{
    console.log("id",id)
     dispatch(delete_cart_request());
     axios
-    .delete(`http://localhost:3000/cart/${id}`)
+    .delete(`https://fabaly-json-api.herokuapp.com/cart/${id}`)
     .then((res)=>{
         dispatch(delete_cart_success(id))
         console.log(res)
