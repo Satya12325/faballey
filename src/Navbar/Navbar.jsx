@@ -75,7 +75,7 @@ function ElevationScroll(props) {
 const getProducts = ()=>{
   const requestAction = getProductRequest();
   dispatch(requestAction);
-  return fetch(`https://fabaly-json-api.herokuapp.com/cart`)
+  return fetch(`https://fabaly-product-api.onrender.com/cart`)
   .then((response) => response.json())
   .then((response) => {
       console.log(response)

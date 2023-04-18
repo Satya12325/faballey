@@ -22,7 +22,7 @@ import Select from "@mui/material/Select";
 import InputLabel from "@mui/material/InputLabel";
 
 const fetchData = (id) => {
-  return axios.get(`https://fabaly-json-api.herokuapp.com/products/${id}`);
+  return axios.get(`https://fabaly-product-api.onrender.com/products/${id}`);
 };
 
 // const Lefto = ({image}) => {
@@ -164,7 +164,7 @@ export const ProductDetails = () => {
         quantity: qty,
       };
       const config = {
-        url: "https://fabaly-json-api.herokuapp.com/cart",
+        url: "https://fabaly-product-api.onrender.com/cart",
         method: "POST",
         data: payload,
       };
