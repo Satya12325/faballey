@@ -18,7 +18,7 @@ For this app we used HTML5,CSS, React js, javaScript, json-Server,Redux
 </p>
 
 <h3>
-link : - https://faballeyclone.herokuapp.com/
+link : - https://fabaly.netlify.app/
 </h3>
 
 <img src="https://github.com/Satya12325/faballey/blob/master/screencapture-faballeyclone-herokuapp-2022-03-16-19_10_21.png"/>
